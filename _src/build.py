@@ -57,6 +57,9 @@ PROTO = r"""<!doctype html>
   #bar button, #bar select { background:#2E3732; color:var(--ink); border:1px solid #3B4640; border-radius:6px; height:30px; padding:0 10px; font:inherit; cursor:pointer; }
   #bar select { max-width:340px; }
   #bar .sp { flex:1; }
+  #bar > * { white-space:nowrap; flex-shrink:0; }
+  #bar .hint { overflow:hidden; text-overflow:ellipsis; flex-shrink:1; min-width:0; }
+  @media (max-width:1500px) { #bar .hint { display:none; } }
   #bar .hint { color:var(--muted); font-size:12.5px; }
   #bar .pill { color:#161B18; background:var(--accent); border-radius:10px; padding:1px 8px; font-weight:600; font-size:12px; }
 </style></head><body>
@@ -68,7 +71,7 @@ PROTO = r"""<!doctype html>
   <button id="web">Web</button><button id="mob">Android app (Flutter)</button>
   <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6; Full screen</button>
   <span id="ready"></span><span class="sp"></span>
-  <span class="hint">Click the screen · empty space reveals hotspots · ← → keys · H hotspots · F full screen · Esc exit</span>
+  <span class="hint">← → keys · H hotspots · F full screen · Esc exit</span>
   <span class="pill">Illustrative data</span>
 </div>
 <script>
@@ -81,7 +84,7 @@ const CACHE = {}; let loaded = 0;
 SCREENS.forEach(s => {
   const im = new Image();
   im.onload = () => { loaded++; document.getElementById('ready').textContent =
-    loaded === SCREENS.length ? 'All screens loaded · works offline now' : `Loading screens ${loaded}/${SCREENS.length}…`; };
+    loaded === SCREENS.length ? '✓ Offline-ready' : `Loading ${loaded}/${SCREENS.length}…`; };
   im.src = s.src; CACHE[s.key] = im;
 });
 const img = document.getElementById('img'), frame = document.getElementById('frame'), pick = document.getElementById('pick');

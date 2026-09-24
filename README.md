@@ -1,10 +1,10 @@
 # P4FP Uganda MEL Platform: presentation mockups
 
-31 screens: 18 web (1920×1080) and 13 mobile field-app screens (360×800, installable on Android as a PWA). They are plain SVG, so Adobe XD imports them as editable shapes and text.
+36 screens: 23 web (1920×1080) and 13 screens of the Android field app (360×800, built in Flutter). They are plain SVG, so Adobe XD imports them as editable shapes and text.
 
 ## Clickable prototype (use this for the live walkthrough)
 
-Open `prototype.html` in Chrome. Press **F** or the Full screen button to go full screen, and **Esc** to leave it. The sidebar, key cards and buttons are all clickable (about 300 hotspots). Click empty space to flash where the hotspots are, press ← → to step through screens, and use **Web / Mobile field app (PWA)** in the bottom bar to switch. `prototype.html#w05` opens a specific screen directly.
+Open `prototype.html` in Chrome. Press **F** or the Full screen button to go full screen, and **Esc** to leave it. The sidebar, key cards and buttons are all clickable (about 300 hotspots). Click empty space to flash where the hotspots are, press ← → to step through screens, and use **Web / Android app (Flutter)** in the bottom bar to switch. `prototype.html#w05` opens a specific screen directly.
 
 Start-up flows:
 - **Web:** public landing page (approved public results) → Sign in → two-step verification (OTP) → Programme overview. The red sign-out button next to the user's name in the sidebar returns to the landing page.

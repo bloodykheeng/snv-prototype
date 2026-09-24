@@ -87,7 +87,7 @@ def shell(title: str, active: str, crumbs: list[str], user=SNV_USER, nav=NAV_SNV
             s.rect(16, H - 176, SB - 32, 84, fill=tint(AMBER, 0.12), rx=10)
             s.icon("phone", 30, H - 162, 20, AMBER_D, 1.8)
             s.text(58, H - 147, "Mobile field app", 13, 600, INK)
-            s.text(30, H - 125, "Installs on Android (PWA).", 12, 400, INK2)
+            s.text(30, H - 125, "Android app, built in Flutter.", 12, 400, INK2)
             s.text(30, H - 107, "Offline capture, GPS, photos.", 12, 400, INK2)
         s.link(0, H - 76, SB - 56, 76, "w10" if nav is NAV_SNV else "w02")  # demo: switch SNV <-> partner view
         s.link(SB - 52, H - 60, 40, 44, "w00")  # sign out

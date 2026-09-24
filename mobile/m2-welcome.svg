@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M2 Welcome</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<g id="status-bar">
+<text id="10-24" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#16211B">10:24</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#16211B" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="12.0" height="6.0" rx="1" fill="#16211B"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#16211B"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#16211B" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#16211B" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#16211B" fill-opacity="0.3"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#16211B" fill-opacity="0.3"/>
+<text id="network" x="274.4" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#16211B">E</text>
+</g>
+<g id="illustration">
+<rect id="sky" x="0.0" y="24.0" width="360.0" height="360.0" fill="#DCEBE2"/>
+<circle id="sun" cx="259.2" cy="139.2" r="57.6" fill="#F0A12B"/>
+<circle id="sun-glow" cx="259.2" cy="139.2" r="86.4" fill="#F0A12B" fill-opacity="0.18"/>
+<path id="hill-back" d="M0 247.2 C 108.0 211.20000000000002, 216.0 261.6, 360 222.00000000000003 L360 384 L0 384 Z" fill="#7FAF6A"/>
+<path id="field" d="M0 290.4 C 125.99999999999999 261.6, 251.99999999999997 312.0, 360 276.0 L360 384 L0 384 Z" fill="#2F8F5E"/>
+<path id="crop-row-1" d="M0 312.0 C 125.99999999999999 294.0, 251.99999999999997 319.2, 360 294.0" fill="none" stroke="#1E6B47" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.7"/>
+<path id="crop-row-2" d="M0 328.2 C 125.99999999999999 310.2, 251.99999999999997 335.4, 360 310.2" fill="none" stroke="#1E6B47" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.7"/>
+<path id="crop-row-3" d="M0 344.4 C 125.99999999999999 326.4, 251.99999999999997 351.6, 360 326.4" fill="none" stroke="#1E6B47" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.7"/>
+<path id="crop-row-4" d="M0 360.6 C 125.99999999999999 342.6, 251.99999999999997 367.8, 360 342.6" fill="none" stroke="#1E6B47" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.7"/>
+<path id="crop-row-5" d="M0 376.8 C 125.99999999999999 358.8, 251.99999999999997 384.0, 360 358.8" fill="none" stroke="#1E6B47" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.7"/>
+<rect id="panel-1" x="57.6" y="240.0" width="39.6" height="36.0" rx="2" fill="#1F3A5C"/>
+<rect x="59.6" y="242.0" width="35.6" height="32.0" rx="1.5" fill="#2E5B8F"/>
+<line x1="77.4" y1="242.0" x2="77.4" y2="274.0" stroke="#6B9BD1" stroke-width="1"/>
+<rect x="75.6" y="276.0" width="3.0" height="21.6" fill="#1F3A5C"/>
+<rect id="panel-2" x="104.4" y="240.0" width="39.6" height="36.0" rx="2" fill="#1F3A5C"/>
+<rect x="106.4" y="242.0" width="35.6" height="32.0" rx="1.5" fill="#2E5B8F"/>
+<line x1="124.2" y1="242.0" x2="124.2" y2="274.0" stroke="#6B9BD1" stroke-width="1"/>
+<rect x="122.4" y="276.0" width="3.0" height="21.6" fill="#1F3A5C"/>
+<rect id="panel-3" x="151.2" y="240.0" width="39.6" height="36.0" rx="2" fill="#1F3A5C"/>
+<rect x="153.2" y="242.0" width="35.6" height="32.0" rx="1.5" fill="#2E5B8F"/>
+<line x1="171.0" y1="242.0" x2="171.0" y2="274.0" stroke="#6B9BD1" stroke-width="1"/>
+<rect x="169.2" y="276.0" width="3.0" height="21.6" fill="#1F3A5C"/>
+</g>
+<g id="copy">
+<text id="Report-from-the-field" x="20.0" y="432.0" font-family="Segoe UI" font-size="23" font-weight="700" fill="#16211B">Report from the field —</text>
+<text id="even-without-internet" x="20.0" y="462.0" font-family="Segoe UI" font-size="23" font-weight="700" fill="#1E6B47">even without internet</text>
+<g id="para-Register-farmers-ca">
+<text id="line" x="20.0" y="496.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Register farmers, capture GPS-stamped evidence</text>
+<text id="line-2" x="20.0" y="517.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">and harvest outcomes. Everything saves on your</text>
+<text id="line-3" x="20.0" y="538.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">phone and syncs when you are back online.</text>
+</g>
+</g>
+<g id="pager">
+<rect x="20.0" y="580.0" width="22.0" height="6.0" rx="3" fill="#1E6B47"/>
+<circle cx="54.0" cy="583.0" r="3.0" fill="#C5CCC7"/>
+<circle cx="66.0" cy="583.0" r="3.0" fill="#C5CCC7"/>
+</g>
+<g id="button-Sign-in">
+<rect x="16.0" y="640.0" width="328.0" height="50.0" rx="8" fill="#1E6B47"/>
+<text id="Sign-in" x="156.7" y="670.4" font-family="Segoe UI" font-size="15" font-weight="600" fill="#FFFFFF">Sign in</text>
+</g>
+<g id="button-Unlock-with-PIN-on-this-phone">
+<rect x="16.0" y="700.0" width="328.0" height="44.0" rx="8" fill="none"/>
+<g id="icon-lock" transform="translate(73.6 713.0) scale(0.7500)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#1E6B47" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#1E6B47" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Unlock-with-PIN-on-this-phon" x="99.6" y="726.9" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1E6B47">Unlock with PIN on this phone</text>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#16211B" fill-opacity="0.5"/>
+</svg>

@@ -1,0 +1,616 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<title>04 Partner reporting compliance (SNV)</title>
+<rect id="page-background" x="0.0" y="0.0" width="1920.0" height="1080.0" fill="#F4F6F2"/>
+<g id="sidebar">
+<rect id="sidebar-bg" x="0.0" y="0.0" width="264.0" height="1080.0" fill="#FFFFFF"/>
+<line x1="264.0" y1="0.0" x2="264.0" y2="1080.0" stroke="#E2E7E2" stroke-width="1"/>
+<g id="logo-mark">
+<rect x="24.0" y="18.0" width="36.0" height="36.0" rx="10.0" fill="#1E6B47"/>
+<circle cx="47.0" cy="31.0" r="6.0" fill="#F0A12B"/>
+<path d="M32.0 46.0 C32.0 35.0 40.0 31.0 50.0 31.0 C50.0 41.0 43.0 46.0 32.0 46.0 Z" fill="#FFFFFF"/>
+<path d="M33.0 45.0 L44.0 36.0" fill="none" stroke="#1E6B47" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text id="product-name" x="70.0" y="34.0" font-family="Segoe UI" font-size="17" font-weight="700" fill="#16211B">P4FP MEL</text>
+<text id="product-sub" x="70.0" y="52.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#7A857F">SNV · Power for Food Uganda</text>
+<text id="nav-group-PROGRAMME" x="28.0" y="96.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#A7B0AB" letter-spacing="1">PROGRAMME</text>
+<g id="nav-Overview">
+<g id="icon-grid" transform="translate(30.0 120.0) scale(0.8333)">
+<path d="M4 3h6a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 3h6a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 12h6a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 16h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label" x="62.0" y="135.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Overview</text>
+</g>
+<g id="nav-Indicators">
+<g id="icon-target" transform="translate(30.0 162.0) scale(0.8333)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6a6 6 0 1 0 0 12 6 6 0 1 0 0-12z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 10a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-2" x="62.0" y="177.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Indicators</text>
+</g>
+<g id="nav-Outcome-harvesting">
+<g id="icon-sprout" transform="translate(30.0 204.0) scale(0.8333)">
+<path d="M7 20h10" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 20c5.5-2.5.8-6.4 3-10" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-3" x="62.0" y="219.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Outcome harvesting</text>
+</g>
+<g id="nav-System-Signals">
+<g id="icon-radar" transform="translate(30.0 246.0) scale(0.8333)">
+<path d="M12 2l7.07 2.93L22 12l-2.93 7.07L12 22l-7.07-2.93L2 12l2.93-7.07z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7l3.5 1.5L17 12l-1.5 3.5L12 17l-3.5-1.5L7 12l1.5-3.5z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 2v20" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 12h20" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-4" x="62.0" y="261.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">System Signals</text>
+</g>
+<g id="nav-GIS-maps">
+<g id="icon-map" transform="translate(30.0 288.0) scale(0.8333)">
+<path d="M14.1 5.55a2 2 0 0 0 1.8 0l3.65-1.83A1 1 0 0 1 21 4.62v12.76a1 1 0 0 1-.55.9l-4.55 2.27a2 2 0 0 1-1.8 0l-4.2-2.1a2 2 0 0 0-1.8 0l-3.65 1.83A1 1 0 0 1 3 19.38V6.62a1 1 0 0 1 .55-.9l4.55-2.27a2 2 0 0 1 1.8 0z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 5.76v15" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3.24v15" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-5" x="62.0" y="303.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">GIS &amp; maps</text>
+</g>
+<text id="nav-group-PARTNERS" x="28.0" y="334.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#A7B0AB" letter-spacing="1">PARTNERS</text>
+<g id="nav-Partner-reporting">
+<rect id="active-bg" x="14.0" y="348.0" width="236.0" height="40.0" rx="8" fill="#E8F0ED"/>
+<rect id="active-bar" x="14.0" y="358.0" width="3.0" height="20.0" rx="1.5" fill="#1E6B47"/>
+<g id="icon-file" transform="translate(30.0 358.0) scale(0.8333)">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke="#1E6B47" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 2v6h6" fill="none" stroke="#1E6B47" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 13H8" fill="none" stroke="#1E6B47" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17H8" fill="none" stroke="#1E6B47" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 9H8" fill="none" stroke="#1E6B47" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-6" x="62.0" y="373.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#124A31">Partner reporting</text>
+</g>
+<g id="nav-Review-queue">
+<g id="icon-workflow" transform="translate(30.0 400.0) scale(0.8333)">
+<path d="M4 3h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 15h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 9v4a2 2 0 0 0 2 2h6" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-7" x="62.0" y="415.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Review queue</text>
+<rect id="badge" x="213.7" y="401.0" width="20.3" height="18.0" rx="9" fill="#1E6B47"/>
+<text id="badge-n" x="220.7" y="414.0" font-family="Segoe UI" font-size="11" font-weight="700" fill="#FFFFFF">9</text>
+</g>
+<g id="nav-Workplans-milestones">
+<g id="icon-listcheck" transform="translate(30.0 442.0) scale(0.8333)">
+<path d="M3 17l2 2 4-4" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 7l2 2 4-4" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 6h8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 12h8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 18h8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-8" x="62.0" y="457.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Workplans &amp; milestones</text>
+</g>
+<text id="nav-group-KNOWLEDGE" x="28.0" y="488.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#A7B0AB" letter-spacing="1">KNOWLEDGE</text>
+<g id="nav-Knowledge-library">
+<g id="icon-book" transform="translate(30.0 512.0) scale(0.8333)">
+<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-9" x="62.0" y="527.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Knowledge library</text>
+</g>
+<g id="nav-Evidence-store">
+<g id="icon-clip" transform="translate(30.0 554.0) scale(0.8333)">
+<path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-10" x="62.0" y="569.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Evidence store</text>
+</g>
+<text id="nav-group-ADMINISTRATION" x="28.0" y="600.0" font-family="Segoe UI" font-size="10.5" font-weight="600" fill="#A7B0AB" letter-spacing="1">ADMINISTRATION</text>
+<g id="nav-LogAlto-exports">
+<g id="icon-database" transform="translate(30.0 624.0) scale(0.8333)">
+<path d="M12 2c5 0 9 1.34 9 3s-4 3-9 3-9-1.34-9-3 4-3 9-3z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-11" x="62.0" y="639.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">LogAlto &amp; exports</text>
+</g>
+<g id="nav-Users-roles">
+<g id="icon-users" transform="translate(30.0 666.0) scale(0.8333)">
+<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 3a4 4 0 1 0 0 8 4 4 0 1 0 0-8z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 21v-2a4 4 0 0 0-3-3.87" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-12" x="62.0" y="681.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Users &amp; roles</text>
+</g>
+<g id="nav-Audit-trail">
+<g id="icon-history" transform="translate(30.0 708.0) scale(0.8333)">
+<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7v5l4 2" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="label-13" x="62.0" y="723.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#45524B">Audit trail</text>
+</g>
+<g id="sidebar-help-card">
+<rect x="16.0" y="904.0" width="232.0" height="84.0" rx="10" fill="#FDF4E6"/>
+<g id="icon-phone" transform="translate(30.0 918.0) scale(0.8333)">
+<path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="none" stroke="#A86400" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 18h.01" fill="none" stroke="#A86400" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Mobile-field-app" x="58.0" y="933.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Mobile field app</text>
+<text id="Installs-on-Android-PWA" x="30.0" y="955.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#45524B">Installs on Android (PWA).</text>
+<text id="Offline-capture-GPS-photos" x="30.0" y="973.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#45524B">Offline capture, GPS, photos.</text>
+</g>
+<g id="sidebar-user">
+<line x1="0.0" y1="1004.0" x2="264.0" y2="1004.0" stroke="#E2E7E2" stroke-width="1"/>
+<g id="avatar-GA">
+<circle cx="44.0" cy="1042.0" r="18.0" fill="#DBE7E2"/>
+<text id="GA" x="34.1" y="1048.5" font-family="Segoe UI" font-size="14.4" font-weight="600" fill="#1B6040">GA</text>
+</g>
+<text id="Grace-Akello" x="72.0" y="1038.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">Grace Akello</text>
+<text id="SNV-MEL-Reviewer" x="72.0" y="1057.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">SNV MEL Reviewer</text>
+<rect id="sign-out-button" x="214.0" y="1022.0" width="38.0" height="38.0" rx="8" fill="#F4F6F3"/>
+<g id="icon-logout" transform="translate(223.0 1031.0) scale(0.8333)">
+<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" fill="none" stroke="#C2362F" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 17l5-5-5-5" fill="none" stroke="#C2362F" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 12H9" fill="none" stroke="#C2362F" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g id="top-bar">
+<rect id="top-bar-bg" x="264.0" y="0.0" width="1656.0" height="68.0" fill="#FFFFFF"/>
+<line x1="264.0" y1="68.0" x2="1920.0" y2="68.0" stroke="#E2E7E2" stroke-width="1"/>
+<text id="crumb-Partners" x="296.0" y="40.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7A857F">Partners</text>
+<g id="icon-chevright" transform="translate(352.2 29.0) scale(0.6667)">
+<path d="M9 18l6-6-6-6" fill="none" stroke="#A7B0AB" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="crumb-Partner-reporting" x="374.2" y="40.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">Partner reporting</text>
+<g id="avatar-GA-2">
+<circle cx="1870.0" cy="34.0" r="18.0" fill="#DBE7E2"/>
+<text id="GA-2" x="1860.1" y="40.5" font-family="Segoe UI" font-size="14.4" font-weight="600" fill="#1B6040">GA</text>
+</g>
+<line x1="1836.0" y1="20.0" x2="1836.0" y2="48.0" stroke="#E2E7E2" stroke-width="1"/>
+<g id="notifications">
+<g id="icon-bell" transform="translate(1792.0 23.0) scale(0.9167)">
+<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" fill="none" stroke="#45524B" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" fill="none" stroke="#45524B" stroke-width="1.96" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="1811.0" cy="25.0" r="7.0" fill="#C2362F"/>
+<text id="4" x="1808.1" y="29.0" font-family="Segoe UI" font-size="10" font-weight="700" fill="#FFFFFF">4</text>
+</g>
+<g id="search">
+<rect x="1472.0" y="16.0" width="296.0" height="36.0" rx="8" fill="#F4F6F3" stroke="#E2E7E2" stroke-width="1"/>
+<g id="icon-search" transform="translate(1484.0 25.0) scale(0.7500)">
+<path d="M11 3a8 8 0 1 0 0 16 8 8 0 1 0 0-16z" fill="none" stroke="#7A857F" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 21l-4.3-4.3" fill="none" stroke="#7A857F" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Search-indicators-outcomes" x="1512.0" y="39.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#A7B0AB">Search indicators, outcomes, reports…</text>
+<rect x="1734.0" y="24.0" width="24.0" height="20.0" rx="4" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="layer" x="1743.7" y="38.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F">/</text>
+</g>
+<g id="period-selector">
+<rect x="1234.0" y="16.0" width="222.0" height="36.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<g id="icon-calendar" transform="translate(1246.0 25.0) scale(0.7500)">
+<path d="M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="#1E6B47" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 2v4" fill="none" stroke="#1E6B47" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 2v4" fill="none" stroke="#1E6B47" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 10h18" fill="none" stroke="#1E6B47" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Period" x="1272.0" y="39.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Period</text>
+<text id="Q3-2026-Jul-Sep" x="1309.7" y="39.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Q3 2026 · Jul–Sep</text>
+<g id="icon-chevdown" transform="translate(1430.0 27.0) scale(0.6667)">
+<path d="M6 9l6 6 6-6" fill="none" stroke="#7A857F" stroke-width="2.70" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<text id="page-title" x="296.0" y="126.0" font-family="Segoe UI" font-size="26" font-weight="700" fill="#16211B">Partner reporting · Q3 2026</text>
+<text id="page-subtitle" x="296.0" y="152.0" font-family="Segoe UI" font-size="14" font-weight="400" fill="#7A857F">Quarterly technical and financial reports from the eight implementing partners — due 30 September 2026 (6 days left)</text>
+<g id="button-Export-compliance-summary">
+<rect x="1648.8" y="108.0" width="239.2" height="40.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<g id="icon-download" transform="translate(1664.8 119.0) scale(0.7500)">
+<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" fill="none" stroke="#16211B" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 10l5 5 5-5" fill="none" stroke="#16211B" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 15V3" fill="none" stroke="#16211B" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Export-compliance-summary" x="1690.8" y="133.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">Export compliance summary</text>
+</g>
+<g id="button-Send-reminder-to-2-partners">
+<rect x="1399.7" y="108.0" width="237.1" height="40.0" rx="8" fill="#1E6B47"/>
+<g id="icon-send" transform="translate(1415.7 119.0) scale(0.7500)">
+<path d="M22 2l-7 20-4-9-9-4z" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 2L11 13" fill="none" stroke="#FFFFFF" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Send-reminder-to-2-partners" x="1441.7" y="133.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Send reminder to 2 partners</text>
+</g>
+<g id="tile-Approved">
+<rect x="296.0" y="180.0" width="252.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="296.0" y="196.0" width="4.0" height="64.0" rx="2" fill="#178A4C"/>
+<text id="Approved" x="318.0" y="212.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#45524B">Approved</text>
+<text id="5" x="318.0" y="250.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#16211B">5</text>
+<text id="reports" x="343.3" y="250.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">reports</text>
+</g>
+<g id="tile-Under-review">
+<rect x="564.0" y="180.0" width="252.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="564.0" y="196.0" width="4.0" height="64.0" rx="2" fill="#B7791F"/>
+<text id="Under-review" x="586.0" y="212.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#45524B">Under review</text>
+<text id="4-2" x="586.0" y="250.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#16211B">4</text>
+<text id="with-SNV-MEL" x="611.3" y="250.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">with SNV MEL</text>
+</g>
+<g id="tile-Submitted">
+<rect x="832.0" y="180.0" width="252.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="832.0" y="196.0" width="4.0" height="64.0" rx="2" fill="#2B6CB0"/>
+<text id="Submitted" x="854.0" y="212.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#45524B">Submitted</text>
+<text id="2" x="854.0" y="250.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#16211B">2</text>
+<text id="awaiting-pickup" x="879.3" y="250.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">awaiting pickup</text>
+</g>
+<g id="tile-Returned">
+<rect x="1100.0" y="180.0" width="252.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="1100.0" y="196.0" width="4.0" height="64.0" rx="2" fill="#D9651B"/>
+<text id="Returned" x="1122.0" y="212.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#45524B">Returned</text>
+<text id="1" x="1122.0" y="250.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#16211B">1</text>
+<text id="for-revision" x="1147.3" y="250.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">for revision</text>
+</g>
+<g id="tile-Overdue">
+<rect x="1368.0" y="180.0" width="252.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="1368.0" y="196.0" width="4.0" height="64.0" rx="2" fill="#C2362F"/>
+<text id="Overdue" x="1390.0" y="212.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#45524B">Overdue</text>
+<text id="2-2" x="1390.0" y="250.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#16211B">2</text>
+<text id="USEA-both-reports" x="1415.3" y="250.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">USEA · both reports</text>
+</g>
+<g id="tile-Missing-evidence">
+<rect x="1636.0" y="180.0" width="252.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="1636.0" y="196.0" width="4.0" height="64.0" rx="2" fill="#6D5BD0"/>
+<text id="Missing-evidence" x="1658.0" y="212.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#45524B">Missing evidence</text>
+<text id="13" x="1658.0" y="250.0" font-family="Segoe UI" font-size="30" font-weight="700" fill="#16211B">13</text>
+<text id="of-83-items" x="1700.5" y="250.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">of 83 items</text>
+</g>
+<rect id="Compliance-by-partner-bg" x="296.0" y="296.0" width="1592.0" height="564.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="title" x="320.0" y="334.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#16211B">Compliance by partner</text>
+<text id="subtitle" x="320.0" y="356.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#7A857F">Partners only ever see their own row · financial detail is restricted to SNV finance and MEL</text>
+<text id="card-action" x="1767.6" y="334.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#1E6B47">View Q2 2026 →</text>
+<g id="table">
+<rect id="header-bg" x="297.0" y="376.0" width="1590.0" height="40.0" fill="#F7F9F6"/>
+<text id="PARTNER" x="313.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">PARTNER</text>
+<text id="MEL-FOCAL-PERSON" x="563.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">MEL FOCAL PERSON</text>
+<text id="TECHNICAL-REPORT" x="773.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">TECHNICAL REPORT</text>
+<text id="FINANCIAL-REPORT" x="963.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">FINANCIAL REPORT</text>
+<text id="EVIDENCE" x="1153.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">EVIDENCE</text>
+<text id="WORKPLAN-ACTIVITIES" x="1323.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">WORKPLAN ACTIVITIES</text>
+<text id="SUB-GRANT-DISBURSED" x="1583.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6">SUB-GRANT DISBURSED</text>
+<text x="1871.0" y="400.0" font-family="Segoe UI" font-size="11" font-weight="600" fill="#7A857F" letter-spacing="0.6"></text>
+<g id="row-1">
+<line x1="297.0" y1="416.0" x2="1887.0" y2="416.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="427.5" width="32.0" height="32.0" rx="8" fill="#E0EEE6"/>
+<text id="AC" x="321.1" y="448.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#297D4E">AC</text>
+<text id="ACSA" x="355.0" y="448.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">ACSA</text>
+<text id="Ruth-Nabirye" x="563.0" y="441.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Ruth Nabirye</text>
+<text id="Last-activity-12-Sep" x="563.0" y="459.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 12 Sep</text>
+<g id="chip-Approved">
+<rect x="773.0" y="431.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="787.0" cy="443.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-2" x="797.0" y="447.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="chip-Approved-2">
+<rect x="963.0" y="431.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="977.0" cy="443.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-3" x="987.0" y="447.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="icon-check" transform="translate(1153.0 435.5) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#178A4C" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="9-of-9" x="1175.0" y="448.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">9 of 9</text>
+<g id="progress">
+<rect x="1323.0" y="439.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="439.5" width="108.0" height="8.0" rx="4.0" fill="#1E6B47"/>
+</g>
+<text id="19-26" x="1483.0" y="447.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">19/26</text>
+<g id="icon-lock" transform="translate(1583.0 435.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="70-of-tranche" x="1605.0" y="448.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">70% of tranche</text>
+<g id="button-Open">
+<rect x="1806.8" y="427.5" width="64.2" height="32.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Open" x="1822.8" y="448.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Open</text>
+</g>
+</g>
+<g id="row-2">
+<line x1="297.0" y1="471.0" x2="1887.0" y2="471.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="482.5" width="32.0" height="32.0" rx="8" fill="#EEE6F9"/>
+<text id="PU" x="321.0" y="503.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#8052C1">PU</text>
+<text id="PELUM-Uganda" x="355.0" y="503.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">PELUM Uganda</text>
+<text id="Peter-Okello" x="563.0" y="496.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Peter Okello</text>
+<text id="Last-activity-18-Sep" x="563.0" y="514.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 18 Sep</text>
+<g id="chip-Approved-3">
+<rect x="773.0" y="486.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="787.0" cy="498.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-4" x="797.0" y="502.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="chip-Under-review">
+<rect x="963.0" y="486.5" width="106.2" height="24.0" rx="12.0" fill="#F6EFE4"/>
+<circle cx="977.0" cy="498.5" r="4.0" fill="#B7791F"/>
+<text id="Under-review-2" x="987.0" y="502.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#A16A1B">Under review</text>
+</g>
+<g id="icon-alert" transform="translate(1153.0 490.5) scale(0.6667)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="14-of-15" x="1175.0" y="503.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">14 of 15</text>
+<text id="missing" x="1227.1" y="503.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9651B">missing</text>
+<g id="progress-2">
+<rect x="1323.0" y="494.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="494.5" width="99.0" height="8.0" rx="4.0" fill="#1E6B47"/>
+</g>
+<text id="17-26" x="1483.0" y="502.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">17/26</text>
+<g id="icon-lock-2" transform="translate(1583.0 490.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="62-of-tranche" x="1605.0" y="503.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">62% of tranche</text>
+<g id="button-Open-2">
+<rect x="1806.8" y="482.5" width="64.2" height="32.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Open-2" x="1822.8" y="503.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Open</text>
+</g>
+</g>
+<g id="row-3">
+<line x1="297.0" y1="526.0" x2="1887.0" y2="526.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="537.5" width="32.0" height="32.0" rx="8" fill="#FAEEDD"/>
+<text id="NR" x="320.3" y="558.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#CA8217">NR</text>
+<text id="NREP" x="355.0" y="558.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">NREP</text>
+<text id="Brian-Tumusiime" x="563.0" y="551.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Brian Tumusiime</text>
+<text id="Last-activity-18-Sep-2" x="563.0" y="569.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 18 Sep</text>
+<g id="chip-Under-review-2">
+<rect x="773.0" y="541.5" width="106.2" height="24.0" rx="12.0" fill="#F6EFE4"/>
+<circle cx="787.0" cy="553.5" r="4.0" fill="#B7791F"/>
+<text id="Under-review-3" x="797.0" y="557.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#A16A1B">Under review</text>
+</g>
+<g id="chip-Submitted">
+<rect x="963.0" y="541.5" width="90.7" height="24.0" rx="12.0" fill="#E6EDF6"/>
+<circle cx="977.0" cy="553.5" r="4.0" fill="#2B6CB0"/>
+<text id="Submitted-2" x="987.0" y="557.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#265F9B">Submitted</text>
+</g>
+<g id="icon-alert-2" transform="translate(1153.0 545.5) scale(0.6667)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="11-of-12" x="1175.0" y="558.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">11 of 12</text>
+<text id="missing-2" x="1224.7" y="558.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9651B">missing</text>
+<g id="progress-3">
+<rect x="1323.0" y="549.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="549.5" width="103.5" height="8.0" rx="4.0" fill="#1E6B47"/>
+</g>
+<text id="18-26" x="1483.0" y="557.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">18/26</text>
+<g id="icon-lock-3" transform="translate(1583.0 545.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="66-of-tranche" x="1605.0" y="558.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">66% of tranche</text>
+<g id="button-Review">
+<rect x="1797.6" y="537.5" width="73.4" height="32.0" rx="8" fill="#1E6B47"/>
+<text id="Review" x="1813.6" y="558.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Review</text>
+</g>
+</g>
+<g id="row-4">
+<line x1="297.0" y1="581.0" x2="1887.0" y2="581.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="592.5" width="32.0" height="32.0" rx="8" fill="#F6E1E0"/>
+<text id="AC-2" x="321.1" y="613.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#AF312A">AC</text>
+<text id="ACME" x="355.0" y="613.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">ACME</text>
+<text id="Joan-Atim" x="563.0" y="606.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Joan Atim</text>
+<text id="Last-activity-10-Sep" x="563.0" y="624.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 10 Sep</text>
+<g id="chip-Approved-4">
+<rect x="773.0" y="596.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="787.0" cy="608.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-5" x="797.0" y="612.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="chip-Approved-5">
+<rect x="963.0" y="596.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="977.0" cy="608.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-6" x="987.0" y="612.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="icon-check-2" transform="translate(1153.0 600.5) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#178A4C" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="6-of-6" x="1175.0" y="613.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">6 of 6</text>
+<g id="progress-4">
+<rect x="1323.0" y="604.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="604.5" width="121.5" height="8.0" rx="4.0" fill="#1E6B47"/>
+</g>
+<text id="21-26" x="1483.0" y="612.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">21/26</text>
+<g id="icon-lock-4" transform="translate(1583.0 600.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="75-of-tranche" x="1605.0" y="613.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">75% of tranche</text>
+<g id="button-Open-3">
+<rect x="1806.8" y="592.5" width="64.2" height="32.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Open-3" x="1822.8" y="613.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Open</text>
+</g>
+</g>
+<g id="row-5">
+<line x1="297.0" y1="636.0" x2="1887.0" y2="636.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="647.5" width="32.0" height="32.0" rx="8" fill="#DFE9F3"/>
+<text id="CR" x="321.3" y="668.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#27619E">CR</text>
+<text id="CREEC" x="355.0" y="668.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">CREEC</text>
+<text id="Samuel-Wasswa" x="563.0" y="661.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Samuel Wasswa</text>
+<text id="Last-activity-20-Sep" x="563.0" y="679.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 20 Sep</text>
+<g id="chip-Returned">
+<rect x="773.0" y="651.5" width="83.9" height="24.0" rx="12.0" fill="#FAEDE4"/>
+<circle cx="787.0" cy="663.5" r="4.0" fill="#D9651B"/>
+<text id="Returned-2" x="797.0" y="667.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#BF5918">Returned</text>
+</g>
+<g id="chip-Approved-6">
+<rect x="963.0" y="651.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="977.0" cy="663.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-7" x="987.0" y="667.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="icon-alert-3" transform="translate(1153.0 655.5) scale(0.6667)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="7-of-10" x="1175.0" y="668.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">7 of 10</text>
+<text id="missing-3" x="1221.1" y="668.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9651B">missing</text>
+<g id="progress-5">
+<rect x="1323.0" y="659.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="659.5" width="87.0" height="8.0" rx="4.0" fill="#1E6B47"/>
+</g>
+<text id="15-26" x="1483.0" y="667.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">15/26</text>
+<g id="icon-lock-5" transform="translate(1583.0 655.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="50-of-tranche" x="1605.0" y="668.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">50% of tranche</text>
+<g id="button-Open-4">
+<rect x="1806.8" y="647.5" width="64.2" height="32.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Open-4" x="1822.8" y="668.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Open</text>
+</g>
+</g>
+<g id="row-6">
+<line x1="297.0" y1="691.0" x2="1887.0" y2="691.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="702.5" width="32.0" height="32.0" rx="8" fill="#DCEDE4"/>
+<text id="NO" x="319.7" y="723.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#157C44">NO</text>
+<text id="NOGAMU" x="355.0" y="723.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">NOGAMU</text>
+<text id="Harriet-Nansubuga" x="563.0" y="716.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Harriet Nansubuga</text>
+<text id="Last-activity-15-Sep" x="563.0" y="734.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 15 Sep</text>
+<g id="chip-Approved-7">
+<rect x="773.0" y="706.5" width="87.6" height="24.0" rx="12.0" fill="#E3F1EA"/>
+<circle cx="787.0" cy="718.5" r="4.0" fill="#178A4C"/>
+<text id="Approved-8" x="797.0" y="722.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#147943">Approved</text>
+</g>
+<g id="chip-Under-review-3">
+<rect x="963.0" y="706.5" width="106.2" height="24.0" rx="12.0" fill="#F6EFE4"/>
+<circle cx="977.0" cy="718.5" r="4.0" fill="#B7791F"/>
+<text id="Under-review-4" x="987.0" y="722.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#A16A1B">Under review</text>
+</g>
+<g id="icon-check-3" transform="translate(1153.0 710.5) scale(0.6667)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#178A4C" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="16-of-16" x="1175.0" y="723.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">16 of 16</text>
+<g id="progress-6">
+<rect x="1323.0" y="714.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="714.5" width="112.5" height="8.0" rx="4.0" fill="#1E6B47"/>
+</g>
+<text id="20-26" x="1483.0" y="722.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">20/26</text>
+<g id="icon-lock-6" transform="translate(1583.0 710.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="70-of-tranche-2" x="1605.0" y="723.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">70% of tranche</text>
+<g id="button-Open-5">
+<rect x="1806.8" y="702.5" width="64.2" height="32.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Open-5" x="1822.8" y="723.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Open</text>
+</g>
+</g>
+<g id="row-7">
+<line x1="297.0" y1="746.0" x2="1887.0" y2="746.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="757.5" width="32.0" height="32.0" rx="8" fill="#DBEAE9"/>
+<text id="NA" x="320.0" y="778.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#0E6A63">NA</text>
+<text id="NARO" x="355.0" y="778.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">NARO</text>
+<text id="Dr-Moses-Ekwaru" x="563.0" y="771.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Dr. Moses Ekwaru</text>
+<text id="Last-activity-22-Sep" x="563.0" y="789.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity 22 Sep</text>
+<g id="chip-Submitted-2">
+<rect x="773.0" y="761.5" width="90.7" height="24.0" rx="12.0" fill="#E6EDF6"/>
+<circle cx="787.0" cy="773.5" r="4.0" fill="#2B6CB0"/>
+<text id="Submitted-3" x="797.0" y="777.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#265F9B">Submitted</text>
+</g>
+<g id="chip-Draft">
+<rect x="963.0" y="761.5" width="62.0" height="24.0" rx="12.0" fill="#EFF0F0"/>
+<circle cx="977.0" cy="773.5" r="4.0" fill="#7A857F"/>
+<text id="Draft" x="987.0" y="777.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#6B7570">Draft</text>
+</g>
+<g id="icon-alert-4" transform="translate(1153.0 765.5) scale(0.6667)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#D9651B" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="4-of-8" x="1175.0" y="778.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">4 of 8</text>
+<text id="missing-4" x="1216.2" y="778.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#D9651B">missing</text>
+<g id="progress-7">
+<rect x="1323.0" y="769.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="769.5" width="81.0" height="8.0" rx="4.0" fill="#F0A12B"/>
+</g>
+<text id="14-26" x="1483.0" y="777.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">14/26</text>
+<g id="icon-lock-7" transform="translate(1583.0 765.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="45-of-tranche" x="1605.0" y="778.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">45% of tranche</text>
+<g id="button-Review-2">
+<rect x="1797.6" y="757.5" width="73.4" height="32.0" rx="8" fill="#1E6B47"/>
+<text id="Review-2" x="1813.6" y="778.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#FFFFFF">Review</text>
+</g>
+</g>
+<g id="row-8">
+<rect x="297.0" y="801.0" width="1590.0" height="55.0" fill="#F2F6F4"/>
+<line x1="297.0" y1="801.0" x2="1887.0" y2="801.0" stroke="#EEF1ED" stroke-width="1"/>
+<rect x="313.0" y="812.5" width="32.0" height="32.0" rx="8" fill="#F4EBDD"/>
+<text id="US" x="321.3" y="833.0" font-family="Segoe UI" font-size="12" font-weight="700" fill="#A56D1C">US</text>
+<text id="USEA" x="355.0" y="833.5" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">USEA</text>
+<text id="Kenneth-Mugisha" x="563.0" y="826.5" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#16211B">Kenneth Mugisha</text>
+<text id="Last-activity" x="563.0" y="844.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Last activity —</text>
+<g id="chip-Overdue">
+<rect x="773.0" y="816.5" width="80.4" height="24.0" rx="12.0" fill="#F8E7E6"/>
+<circle cx="787.0" cy="828.5" r="4.0" fill="#C2362F"/>
+<text id="Overdue-2" x="797.0" y="832.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#AB3029">Overdue</text>
+</g>
+<g id="chip-Overdue-2">
+<rect x="963.0" y="816.5" width="80.4" height="24.0" rx="12.0" fill="#F8E7E6"/>
+<circle cx="977.0" cy="828.5" r="4.0" fill="#C2362F"/>
+<text id="Overdue-3" x="987.0" y="832.8" font-family="Segoe UI" font-size="12" font-weight="600" fill="#AB3029">Overdue</text>
+</g>
+<g id="icon-alert-5" transform="translate(1153.0 820.5) scale(0.6667)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#C2362F" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#C2362F" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#C2362F" stroke-width="3.30" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="0-of-7" x="1175.0" y="833.5" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">0 of 7</text>
+<text id="missing-5" x="1215.6" y="833.5" font-family="Segoe UI" font-size="12" font-weight="400" fill="#C2362F">missing</text>
+<g id="progress-8">
+<rect x="1323.0" y="824.5" width="150.0" height="8.0" rx="4.0" fill="#EEF1ED"/>
+<rect x="1323.0" y="824.5" width="61.5" height="8.0" rx="4.0" fill="#F0A12B"/>
+</g>
+<text id="11-26" x="1483.0" y="832.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#45524B">11/26</text>
+<g id="icon-lock-8" transform="translate(1583.0 820.5) scale(0.6250)">
+<path d="M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 11V7a5 5 0 0 1 10 0v4" fill="none" stroke="#7A857F" stroke-width="3.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="33-of-tranche" x="1605.0" y="833.5" font-family="Segoe UI" font-size="13" font-weight="400" fill="#16211B">33% of tranche</text>
+<g id="button-Remind">
+<rect x="1794.0" y="812.5" width="77.0" height="32.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Remind" x="1810.0" y="833.2" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">Remind</text>
+</g>
+</g>
+</g>
+<rect id="Follow-up-actions-bg" x="296.0" y="880.0" width="943.2" height="172.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="title-2" x="320.0" y="918.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#16211B">Follow-up actions</text>
+<rect x="320.0" y="944.0" width="30.0" height="30.0" rx="8" fill="#F8E7E6"/>
+<g id="icon-alert-6" transform="translate(327.0 951.0) scale(0.6667)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#C2362F" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#C2362F" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#C2362F" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="USEA-Q3-technical-financ" x="362.0" y="957.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">USEA — Q3 technical &amp; financial reports overdue</text>
+<text id="Auto-reminder-sent-23-Sep" x="362.0" y="975.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">Auto-reminder sent 23 Sep · escalate to Programme Manager</text>
+<rect x="320.0" y="990.0" width="30.0" height="30.0" rx="8" fill="#FAEDE4"/>
+<g id="icon-clip-2" transform="translate(327.0 997.0) scale(0.6667)">
+<path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48" fill="none" stroke="#D9651B" stroke-width="3.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="CREEC-returned-3-evidence" x="362.0" y="1003.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">CREEC — returned: 3 evidence files missing for OI 2.3</text>
+<text id="Returned-20-Sep-by-Grace-Ake" x="362.0" y="1021.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#7A857F">Returned 20 Sep by Grace Akello · partner notified by email and SMS</text>
+<rect id="Automatic-reminders-bg" x="1259.2" y="880.0" width="628.8" height="172.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="title-3" x="1283.2" y="918.0" font-family="Segoe UI" font-size="17" font-weight="600" fill="#16211B">Automatic reminders</text>
+<g id="toggle">
+<rect x="1283.2" y="942.0" width="36.0" height="20.0" rx="10" fill="#1E6B47"/>
+<circle cx="1309.2" cy="952.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="7-days-before-due-date-ema" x="1331.2" y="957.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#45524B">7 days before due date · email + SMS</text>
+<g id="toggle-2">
+<rect x="1283.2" y="974.0" width="36.0" height="20.0" rx="10" fill="#1E6B47"/>
+<circle cx="1309.2" cy="984.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="On-due-date-email-in-app" x="1331.2" y="989.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#45524B">On due date · email + in-app</text>
+<g id="toggle-3">
+<rect x="1283.2" y="1006.0" width="36.0" height="20.0" rx="10" fill="#1E6B47"/>
+<circle cx="1309.2" cy="1016.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="3-days-overdue-copy-Progra" x="1331.2" y="1021.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#45524B">3 days overdue · copy Programme Manager</text>
+</svg>

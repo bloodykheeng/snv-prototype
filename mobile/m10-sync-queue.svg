@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M10 Sync queue</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#F4F6F2"/>
+<g id="status-bar">
+<text id="10-24" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#16211B">10:24</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#16211B" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="12.0" height="6.0" rx="1" fill="#16211B"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#16211B"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#16211B" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#16211B" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#16211B" fill-opacity="0.3"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#16211B" fill-opacity="0.3"/>
+<text id="network" x="274.4" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#16211B">E</text>
+</g>
+<g id="app-bar">
+<rect id="app-bar-bg" x="0.0" y="24.0" width="360.0" height="56.0" fill="#FFFFFF"/>
+<line x1="0.0" y1="80.0" x2="360.0" y2="80.0" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Sync" x="16.0" y="58.0" font-family="Segoe UI" font-size="18" font-weight="600" fill="#16211B">Sync</text>
+<g id="icon-refresh" transform="translate(320.0 40.0) scale(1.0000)">
+<path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#16211B" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#16211B" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" fill="none" stroke="#16211B" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 16h5v5" fill="none" stroke="#16211B" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="sync-status">
+<rect x="16.0" y="96.0" width="328.0" height="110.0" rx="14" fill="#124A31"/>
+<g id="icon-wifi" transform="translate(32.0 114.0) scale(0.9167)">
+<path d="M5 12.55a11 11 0 0 1 14.08 0" fill="none" stroke="#FFFFFF" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.42 9a16 16 0 0 1 21.16 0" fill="none" stroke="#FFFFFF" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.53 16.11a6 6 0 0 1 6.95 0" fill="none" stroke="#FFFFFF" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 20h.01" fill="none" stroke="#FFFFFF" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Back-online-syncing" x="64.0" y="131.0" font-family="Segoe UI" font-size="16" font-weight="700" fill="#FFFFFF">Back online · syncing</text>
+<text id="31-of-38-records-uploaded" x="32.0" y="160.0" font-family="Segoe UI" font-size="13" font-weight="400" fill="#CFE3D7">31 of 38 records uploaded</text>
+<g id="progress">
+<rect x="32.0" y="174.0" width="296.0" height="8.0" rx="4.0" fill="#2F6B4E"/>
+<rect x="32.0" y="174.0" width="241.5" height="8.0" rx="4.0" fill="#F0A12B"/>
+</g>
+<text id="82" x="301.8" y="160.0" font-family="Segoe UI" font-size="13" font-weight="700" fill="#FFFFFF">82%</text>
+</g>
+<text id="Needs-your-attention" x="16.0" y="238.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#16211B">Needs your attention</text>
+<g id="conflict-item">
+<rect x="16.0" y="250.0" width="328.0" height="112.0" rx="12" fill="#FFFFFF" stroke="#ECB28D" stroke-width="1"/>
+<g id="icon-alert" transform="translate(30.0 264.0) scale(0.8333)">
+<path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" fill="none" stroke="#D9651B" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 9v4" fill="none" stroke="#D9651B" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 17h.01" fill="none" stroke="#D9651B" stroke-width="2.64" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Farmer-already-on-the-server" x="60.0" y="279.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#16211B">Farmer already on the server</text>
+<g id="para-Kato-Joseph-was-adde">
+<text id="line" x="60.0" y="300.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#45524B">Kato Joseph was added by a colleague</text>
+<text id="line-2" x="60.0" y="318.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#45524B">yesterday. Keep one record.</text>
+</g>
+<g id="button-Keep-server">
+<rect x="60.0" y="322.0" width="131.0" height="30.0" rx="8" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<text id="Keep-server" x="92.3" y="341.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#16211B">Keep server</text>
+</g>
+<g id="button-Merge">
+<rect x="199.0" y="322.0" width="131.0" height="30.0" rx="8" fill="#E8F0ED"/>
+<text id="Merge" x="246.1" y="341.5" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#1C6643">Merge</text>
+</g>
+</g>
+<text id="Queue" x="16.0" y="394.0" font-family="Segoe UI" font-size="14" font-weight="700" fill="#16211B">Queue</text>
+<g id="queue-Adoption-Nakato-Sarah">
+<rect x="16.0" y="406.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="26.0" y="416.0" width="36.0" height="36.0" rx="8" fill="#F1F4F0"/>
+<g id="icon-sprout" transform="translate(34.0 424.0) scale(0.8333)">
+<path d="M7 20h10" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 20c5.5-2.5.8-6.4 3-10" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Adoption-Nakato-Sarah" x="72.0" y="431.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">Adoption · Nakato Sarah</text>
+<text id="Kyanamukaka-09-52" x="72.0" y="449.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Kyanamukaka · 09:52</text>
+<g id="icon-clock" transform="translate(312.0 424.0) scale(0.8333)">
+<path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z" fill="none" stroke="#B7791F" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 6v6l4 2" fill="none" stroke="#B7791F" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="queue-Photo-FFS-14-solar-dryer">
+<rect x="16.0" y="468.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="26.0" y="478.0" width="36.0" height="36.0" rx="8" fill="#F1F4F0"/>
+<g id="icon-camera" transform="translate(34.0 486.0) scale(0.8333)">
+<path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 10a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Photo-FFS-14-solar-dryer" x="72.0" y="493.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">Photo · FFS-14 solar dryer</text>
+<text id="2-1-MB-10-18" x="72.0" y="511.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">2.1 MB · 10:18</text>
+<g id="progress-2">
+<rect x="274.0" y="494.0" width="56.0" height="5.0" rx="2.5" fill="#EEF1ED"/>
+<rect x="274.0" y="494.0" width="33.6" height="5.0" rx="2.5" fill="#2B6CB0"/>
+</g>
+</g>
+<g id="queue-Activity-Farmer-field-school">
+<rect x="16.0" y="530.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="26.0" y="540.0" width="36.0" height="36.0" rx="8" fill="#F1F4F0"/>
+<g id="icon-listcheck" transform="translate(34.0 548.0) scale(0.8333)">
+<path d="M3 17l2 2 4-4" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 7l2 2 4-4" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 6h8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 12h8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 18h8" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Activity-Farmer-field-scho" x="72.0" y="555.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">Activity · Farmer field school</text>
+<text id="Bukakata-23-Sep" x="72.0" y="573.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Bukakata · 23 Sep</text>
+<g id="icon-check" transform="translate(312.0 548.0) scale(0.8333)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#178A4C" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="queue-Adoption-Ssempala-Moses">
+<rect x="16.0" y="592.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="26.0" y="602.0" width="36.0" height="36.0" rx="8" fill="#F1F4F0"/>
+<g id="icon-sprout-2" transform="translate(34.0 610.0) scale(0.8333)">
+<path d="M7 20h10" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 20c5.5-2.5.8-6.4 3-10" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Adoption-Ssempala-Moses" x="72.0" y="617.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">Adoption · Ssempala Moses</text>
+<text id="Kyanamukaka-23-Sep" x="72.0" y="635.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Kyanamukaka · 23 Sep</text>
+<g id="icon-check-2" transform="translate(312.0 610.0) scale(0.8333)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#178A4C" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="queue-Outcome-draft-SACCO-loans">
+<rect x="16.0" y="654.0" width="328.0" height="56.0" rx="12" fill="#FFFFFF" stroke="#E2E7E2" stroke-width="1"/>
+<rect x="26.0" y="664.0" width="36.0" height="36.0" rx="8" fill="#F1F4F0"/>
+<g id="icon-flag" transform="translate(34.0 672.0) scale(0.8333)">
+<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 22v-7" fill="none" stroke="#45524B" stroke-width="2.16" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Outcome-draft-SACCO-loans" x="72.0" y="679.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#16211B">Outcome draft · SACCO loans</text>
+<text id="Masaka-22-Sep" x="72.0" y="697.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#7A857F">Masaka · 22 Sep</text>
+<g id="icon-check-3" transform="translate(312.0 672.0) scale(0.8333)">
+<path d="M20 6L9 17l-5-5" fill="none" stroke="#178A4C" stroke-width="2.88" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="bottom-navigation">
+<rect id="nav-bg" x="0.0" y="724.0" width="360.0" height="76.0" fill="#FFFFFF"/>
+<line x1="0.0" y1="724.0" x2="360.0" y2="724.0" stroke="#E2E7E2" stroke-width="1"/>
+<g id="tab-Home">
+<g id="icon-home" transform="translate(25.0 736.0) scale(0.9167)">
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 22V12h6v10" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Home" x="20.6" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#45524B">Home</text>
+</g>
+<g id="tab-Capture">
+<g id="icon-plus" transform="translate(97.0 736.0) scale(0.9167)">
+<path d="M12 5v14" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 12h14" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Capture" x="87.9" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#45524B">Capture</text>
+</g>
+<g id="tab-Outcomes">
+<g id="icon-sprout-3" transform="translate(169.0 736.0) scale(0.9167)">
+<path d="M7 20h10" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 20c5.5-2.5.8-6.4 3-10" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Outcomes" x="154.0" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#45524B">Outcomes</text>
+</g>
+<g id="tab-Sync">
+<rect id="indicator" x="222.0" y="732.0" width="60.0" height="30.0" rx="15" fill="#E0EAE5"/>
+<g id="icon-refresh-2" transform="translate(241.0 736.0) scale(0.9167)">
+<path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#124A31" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#124A31" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" fill="none" stroke="#124A31" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 16h5v5" fill="none" stroke="#124A31" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Sync-2" x="240.0" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="600" fill="#124A31">Sync</text>
+<circle cx="266.0" cy="736.0" r="8.0" fill="#F0A12B"/>
+<text id="7" x="263.1" y="739.5" font-family="Segoe UI" font-size="10" font-weight="700" fill="#FFFFFF">7</text>
+</g>
+<g id="tab-Me">
+<g id="icon-user" transform="translate(313.0 736.0) scale(0.9167)">
+<path d="M12 3a5 5 0 1 0 0 10 5 5 0 1 0 0-10z" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 21a8 8 0 0 0-16 0" fill="none" stroke="#45524B" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Me" x="315.8" y="776.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#45524B">Me</text>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#16211B" fill-opacity="0.35"/>
+</g>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M8 Evidence photo with GPS</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#0F1512"/>
+<g id="status-bar">
+<text id="10-24" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#FFFFFF">10:24</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="12.0" height="6.0" rx="1" fill="#FFFFFF"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#FFFFFF"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#FFFFFF" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#FFFFFF" fill-opacity="0.3"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#FFFFFF" fill-opacity="0.3"/>
+<text id="network" x="274.4" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#FFFFFF">E</text>
+</g>
+<g id="viewfinder">
+<rect id="sky" x="0.0" y="24.0" width="360.0" height="560.0" fill="#8FB7D6"/>
+<circle id="sun" cx="270.0" cy="120.0" r="34.0" fill="#FFE39A" fill-opacity="0.9"/>
+<path id="field" d="M0 330 C 90 300, 200 320, 360 290 L360 584 L0 584 Z" fill="#6E9A4E"/>
+<path id="crop-row-1" d="M0 360 C 120 344, 240 354, 360 330" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-2" d="M0 388 C 120 372, 240 382, 360 358" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-3" d="M0 416 C 120 400, 240 410, 360 386" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-4" d="M0 444 C 120 428, 240 438, 360 414" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-5" d="M0 472 C 120 456, 240 466, 360 442" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-6" d="M0 500 C 120 484, 240 494, 360 470" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-7" d="M0 528 C 120 512, 240 522, 360 498" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<path id="crop-row-8" d="M0 556 C 120 540, 240 550, 360 526" fill="none" stroke="#557C3A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8"/>
+<rect id="solar-dryer-panel" x="110.0" y="238.0" width="150.0" height="92.0" rx="4" fill="#1F3A5C"/>
+<rect x="114.0" y="242.0" width="142.0" height="84.0" rx="3" fill="#2E5B8F"/>
+<line x1="149.5" y1="242.0" x2="149.5" y2="326.0" stroke="#6B9BD1" stroke-width="1"/>
+<line x1="185.0" y1="242.0" x2="185.0" y2="326.0" stroke="#6B9BD1" stroke-width="1"/>
+<line x1="220.5" y1="242.0" x2="220.5" y2="326.0" stroke="#6B9BD1" stroke-width="1"/>
+<line x1="114.0" y1="284.0" x2="256.0" y2="284.0" stroke="#6B9BD1" stroke-width="1"/>
+<rect x="130.0" y="330.0" width="8.0" height="50.0" fill="#2A2A2A"/>
+<rect x="232.0" y="330.0" width="8.0" height="50.0" fill="#2A2A2A"/>
+<rect id="drying-rack" x="96.0" y="368.0" width="176.0" height="40.0" rx="4" fill="#C9A15A"/>
+<rect id="coffee-beans" x="100.0" y="372.0" width="168.0" height="32.0" rx="3" fill="#7A4E2D"/>
+<path d="M60 202 L60 180 L82 180" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 202 L300 180 L278 180" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 438 L60 460 L82 460" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M300 438 L300 460 L278 460" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="top-controls">
+<g id="icon-x" transform="translate(16.0 40.0) scale(1.0000)">
+<path d="M18 6L6 18" fill="none" stroke="#FFFFFF" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6 6l12 12" fill="none" stroke="#FFFFFF" stroke-width="2.20" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="110.0" y="36.0" width="140.0" height="32.0" rx="16" fill="#000000" fill-opacity="0.45"/>
+<text id="Evidence-photo" x="132.7" y="57.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#FFFFFF">Evidence photo</text>
+</g>
+<g id="gps-stamp">
+<rect x="16.0" y="470.0" width="328.0" height="98.0" rx="12" fill="#000000" fill-opacity="0.55"/>
+<g id="icon-pin" transform="translate(28.0 484.0) scale(0.7500)">
+<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" fill="none" stroke="#FFB547" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7a3 3 0 1 0 0 6 3 3 0 1 0 0-6z" fill="none" stroke="#FFB547" stroke-width="2.93" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Kyanamukaka-Masaka" x="52.0" y="498.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#FFFFFF">Kyanamukaka, Masaka</text>
+<text id="0-3412-31-7351-5-m" x="52.0" y="518.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#E1E7E3">-0.3412, 31.7351 · ±5 m</text>
+<text id="24-Sep-2026-10-18-Sarah" x="52.0" y="537.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#E1E7E3">24 Sep 2026 · 10:18 · Sarah Nakato</text>
+<text id="Stamped-on-photo-cannot-be" x="52.0" y="556.0" font-family="Segoe UI" font-size="11.5" font-weight="400" fill="#B8C4BD">Stamped on photo · cannot be edited</text>
+</g>
+<g id="attach-to">
+<text id="Attach-to" x="16.0" y="612.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#B8C4BD">Attach to</text>
+<rect x="16.0" y="622.0" width="328.0" height="44.0" rx="10" fill="#1E2823"/>
+<g id="icon-listcheck" transform="translate(28.0 634.0) scale(0.8333)">
+<path d="M3 17l2 2 4-4" fill="none" stroke="#FFFFFF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 7l2 2 4-4" fill="none" stroke="#FFFFFF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 6h8" fill="none" stroke="#FFFFFF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 12h8" fill="none" stroke="#FFFFFF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 18h8" fill="none" stroke="#FFFFFF" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="FFS-14-Solar-dryer-demo" x="58.0" y="649.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#FFFFFF">FFS-14 · Solar dryer demo</text>
+<g id="icon-chevdown" transform="translate(314.0 634.0) scale(0.8333)">
+<path d="M6 9l6 6 6-6" fill="none" stroke="#B8C4BD" stroke-width="2.40" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="consent">
+<g id="toggle">
+<rect x="16.0" y="680.0" width="36.0" height="20.0" rx="10" fill="#1E6B47"/>
+<circle cx="42.0" cy="690.0" r="7.5" fill="#FFFFFF"/>
+</g>
+<text id="Consent-recorded-for-people" x="64.0" y="695.0" font-family="Segoe UI" font-size="12.5" font-weight="400" fill="#E1E7E3">Consent recorded for people in photo</text>
+</g>
+<g id="shutter-row">
+<rect id="gallery-thumb" x="24.0" y="718.0" width="44.0" height="44.0" rx="8" fill="#2C3A33"/>
+<g id="icon-image" transform="translate(34.0 728.0) scale(1.0000)">
+<path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" fill="none" stroke="#FFFFFF" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 7a2 2 0 1 0 0 4 2 2 0 1 0 0-4z" fill="none" stroke="#FFFFFF" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 15l-3.09-3.09a2 2 0 0 0-2.83 0L6 21" fill="none" stroke="#FFFFFF" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle id="shutter-ring" cx="180.0" cy="740.0" r="32.0" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+<circle id="shutter" cx="180.0" cy="740.0" r="25.0" fill="#FFFFFF"/>
+<circle cx="314.0" cy="740.0" r="22.0" fill="#2C3A33"/>
+<g id="icon-refresh" transform="translate(302.0 728.0) scale(1.0000)">
+<path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" fill="none" stroke="#FFFFFF" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 3v5h5" fill="none" stroke="#FFFFFF" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" fill="none" stroke="#FFFFFF" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 16h5v5" fill="none" stroke="#FFFFFF" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#FFFFFF" fill-opacity="0.5"/>
+</svg>

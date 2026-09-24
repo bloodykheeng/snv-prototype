@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800">
+<title>M5 Unlock with PIN (returning user)</title>
+<rect id="screen-background" x="0.0" y="0.0" width="360.0" height="800.0" fill="#FFFFFF"/>
+<g id="status-bar">
+<text id="10-24" x="16.0" y="18.0" font-family="Segoe UI" font-size="12.5" font-weight="600" fill="#16211B">10:24</text>
+<rect id="battery" x="322.0" y="8.0" width="20.0" height="10.0" rx="2" fill="none" stroke="#16211B" stroke-width="1.2"/>
+<rect x="324.0" y="10.0" width="12.0" height="6.0" rx="1" fill="#16211B"/>
+<rect x="342.5" y="11.0" width="2.0" height="4.0" rx="1" fill="#16211B"/>
+<rect id="signal-bar" x="292.0" y="14.0" width="3.0" height="3.0" rx="0.8" fill="#16211B" fill-opacity="1"/>
+<rect id="signal-bar-2" x="297.0" y="11.8" width="3.0" height="5.2" rx="0.8" fill="#16211B" fill-opacity="1"/>
+<rect id="signal-bar-3" x="302.0" y="9.6" width="3.0" height="7.4" rx="0.8" fill="#16211B" fill-opacity="0.3"/>
+<rect id="signal-bar-4" x="307.0" y="7.4" width="3.0" height="9.6" rx="0.8" fill="#16211B" fill-opacity="0.3"/>
+<text id="network" x="274.4" y="18.0" font-family="Segoe UI" font-size="10.5" font-weight="700" fill="#16211B">E</text>
+</g>
+<g id="logo-mark">
+<rect x="152.0" y="70.0" width="56.0" height="56.0" rx="15.555555555555555" fill="#1E6B47"/>
+<circle cx="187.8" cy="90.2" r="9.3" fill="#F0A12B"/>
+<path d="M164.4 113.6 C164.4 96.4 176.9 90.2 192.4 90.2 C192.4 105.8 181.6 113.6 164.4 113.6 Z" fill="#FFFFFF"/>
+<path d="M166.0 112.0 L183.1 98.0" fill="none" stroke="#1E6B47" stroke-width="2.488888888888889" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text id="Welcome-back-Sarah" x="79.6" y="160.0" font-family="Segoe UI" font-size="20" font-weight="700" fill="#16211B">Welcome back, Sarah</text>
+<text id="NOGAMU-Field-officer" x="110.3" y="184.0" font-family="Segoe UI" font-size="13.5" font-weight="400" fill="#7A857F">NOGAMU · Field officer</text>
+<text id="Enter-your-6-digit-PIN" x="110.5" y="236.0" font-family="Segoe UI" font-size="14" font-weight="600" fill="#45524B">Enter your 6-digit PIN</text>
+<g id="pin-dots">
+<circle cx="105.0" cy="266.0" r="7.0" fill="#1E6B47" stroke="#1E6B47" stroke-width="1.8"/>
+<circle cx="135.0" cy="266.0" r="7.0" fill="#1E6B47" stroke="#1E6B47" stroke-width="1.8"/>
+<circle cx="165.0" cy="266.0" r="7.0" fill="#1E6B47" stroke="#1E6B47" stroke-width="1.8"/>
+<circle cx="195.0" cy="266.0" r="7.0" fill="#1E6B47" stroke="#1E6B47" stroke-width="1.8"/>
+<circle cx="225.0" cy="266.0" r="7.0" fill="#FFFFFF" stroke="#C5CCC7" stroke-width="1.8"/>
+<circle cx="255.0" cy="266.0" r="7.0" fill="#FFFFFF" stroke="#C5CCC7" stroke-width="1.8"/>
+</g>
+<g id="keypad">
+<rect id="key-1" x="32.0" y="310.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="1" x="69.0" y="351.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">1</text>
+<rect id="key-2" x="136.0" y="310.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="2" x="173.0" y="351.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">2</text>
+<rect id="key-3" x="240.0" y="310.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="3" x="277.0" y="351.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">3</text>
+<rect id="key-4" x="32.0" y="386.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="4" x="69.0" y="427.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">4</text>
+<rect id="key-5" x="136.0" y="386.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="5" x="173.0" y="427.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">5</text>
+<rect id="key-6" x="240.0" y="386.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="6" x="277.0" y="427.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">6</text>
+<rect id="key-7" x="32.0" y="462.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="7" x="69.0" y="503.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">7</text>
+<rect id="key-8" x="136.0" y="462.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="8" x="173.0" y="503.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">8</text>
+<rect id="key-9" x="240.0" y="462.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="9" x="277.0" y="503.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">9</text>
+<g id="icon-fingerprint" transform="translate(60.0 554.0) scale(1.3333)">
+<path d="M2 12C2 6.5 6.5 2 12 2a10 10 0 0 1 8 4" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 19.5C5.5 18 6 15 6 12c0-.7.12-1.37.34-2" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.29 21.02c.12-.6.43-2.3.5-3.02" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.65 22c.21-.66.45-1.32.57-2" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 13.12c0 2.38 0 6.38-1 8.88" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 16h.01" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.8 16c.2-2 .131-5.354 0-6" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 6.8a6 6 0 0 1 9 5.2c0 .47 0 1.17-.02 2" fill="none" stroke="#1E6B47" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect id="key-0" x="136.0" y="538.0" width="88.0" height="64.0" rx="32.0" fill="#F3F6F2"/>
+<text id="0" x="173.0" y="579.0" font-family="Segoe UI" font-size="26" font-weight="400" fill="#16211B">0</text>
+<g id="icon-arrowleft" transform="translate(272.0 558.0) scale(1.0000)">
+<path d="M19 12H5" fill="none" stroke="#45524B" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 19l-7-7 7-7" fill="none" stroke="#45524B" stroke-width="2.00" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="offline-note">
+<rect x="16.0" y="634.0" width="328.0" height="64.0" rx="12" fill="#FDF4E6"/>
+<g id="icon-wifioff" transform="translate(30.0 654.0) scale(0.9167)">
+<path d="M2 2l20 20" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8.5 16.5a5 5 0 0 1 7 0" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 8.82a15 15 0 0 1 4.17-2.65" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.66 5c4.01-.36 8.14.9 11.34 3.76" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.85 11.25a10 10 0 0 1 2.22 1.68" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 13a10 10 0 0 1 5.24-2.76" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 20h.01" fill="none" stroke="#A86400" stroke-width="2.18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="No-internet-You-can-still-s" x="64.0" y="660.0" font-family="Segoe UI" font-size="13" font-weight="600" fill="#16211B">No internet? You can still sign in.</text>
+<text id="Last-synced-today-08-12-da" x="64.0" y="680.0" font-family="Segoe UI" font-size="12" font-weight="400" fill="#45524B">Last synced today 08:12 · data encrypted</text>
+</g>
+<text id="Forgot-PIN-Use-password" x="99.8" y="740.0" font-family="Segoe UI" font-size="13.5" font-weight="600" fill="#1E6B47">Forgot PIN? Use password</text>
+<rect id="gesture-bar" x="126.0" y="792.0" width="108.0" height="4.0" rx="2" fill="#16211B" fill-opacity="0.5"/>
+</svg>

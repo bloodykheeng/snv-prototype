@@ -10,7 +10,11 @@
   #stage { position:absolute; inset:0 0 44px 0; display:flex; align-items:center; justify-content:center; }
   #frame { position:relative; }
   #frame.mobile { border:10px solid #0B0E0C; border-radius:36px; box-shadow:0 0 0 2px #333; overflow:hidden; }
-  #frame img { display:block; width:100%; height:100%; user-select:none; -webkit-user-drag:none; }
+  #frame img { display:block; width:100%; height:100%; user-select:none; -webkit-user-drag:none; transition:opacity .15s; }
+  #frame.loading img { opacity:.25; }
+  #msg { position:absolute; inset:0; display:none; align-items:center; justify-content:center; text-align:center; color:#fff; background:rgba(22,27,24,.85); font-size:15px; padding:20px; }
+  #frame.failed #msg { display:flex; }
+  #ready { color:var(--muted); font-size:12.5px; }
   .hot { position:absolute; cursor:pointer; border-radius:6px; }
   .flash .hot, .show .hot { background:rgba(43,108,176,.18); outline:2px solid rgba(43,108,176,.7); }
   .flash .hot { transition:background .6s, outline-color .6s; }
@@ -21,14 +25,14 @@
   #bar .hint { color:var(--muted); font-size:12.5px; }
   #bar .pill { color:#161B18; background:var(--accent); border-radius:10px; padding:1px 8px; font-weight:600; font-size:12px; }
 </style></head><body>
-<div id="stage"><div id="frame"><img id="img" alt=""></div></div>
+<div id="stage"><div id="frame"><img id="img" alt=""><div id="msg">This screen could not load. Check the internet connection, then press → or pick it again.</div></div></div>
 <div id="bar">
   <button id="prev" title="Previous (←)">&#8592;</button>
   <select id="pick"></select>
   <button id="next" title="Next (→)">&#8594;</button>
   <button id="web">Web</button><button id="mob">Android app (Flutter)</button>
   <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6; Full screen</button>
-  <span class="sp"></span>
+  <span id="ready"></span><span class="sp"></span>
   <span class="hint">Click the screen · empty space reveals hotspots · ← → keys · H hotspots · F full screen · Esc exit</span>
   <span class="pill">Illustrative data</span>
 </div>
@@ -37,6 +41,14 @@ const SCREENS = [{"key": "w00", "title": "00 Public landing page", "src": "web/0
 const AUTO = { m01: ['m02', 1800] };  // splash moves on by itself
 const order = SCREENS.map(s => s.key);
 const byKey = Object.fromEntries(SCREENS.map(s => [s.key, s]));
+// Download every screen up front so the walkthrough keeps working if the connection drops.
+const CACHE = {}; let loaded = 0;
+SCREENS.forEach(s => {
+  const im = new Image();
+  im.onload = () => { loaded++; document.getElementById('ready').textContent =
+    loaded === SCREENS.length ? 'All screens loaded · works offline now' : `Loading screens ${loaded}/${SCREENS.length}…`; };
+  im.src = s.src; CACHE[s.key] = im;
+});
 const img = document.getElementById('img'), frame = document.getElementById('frame'), pick = document.getElementById('pick');
 let cur = null, showAll = location.search.includes('show');
 SCREENS.forEach(s => { const o = document.createElement('option'); o.value = s.key; o.textContent = s.title; pick.appendChild(o); });
@@ -50,7 +62,15 @@ function fit() {
 function go(key, push = true) {
   if (!byKey[key]) key = order[0];
   cur = key; const s = byKey[key];
-  img.src = s.src; frame.className = s.mobile ? 'mobile' : ''; if (showAll) frame.classList.add('show');
+  frame.className = s.mobile ? 'mobile' : ''; if (showAll) frame.classList.add('show');
+  const cached = CACHE[key];
+  if (cached && cached.complete && cached.naturalWidth) { img.src = cached.src; }
+  else {
+    frame.classList.add('loading');
+    img.onload = () => frame.classList.remove('loading', 'failed');
+    img.onerror = () => { frame.classList.remove('loading'); frame.classList.add('failed'); };
+    img.src = s.src;
+  }
   frame.querySelectorAll('.hot').forEach(h => h.remove());
   s.links.forEach(([x, y, w, h, t]) => {
     if (!byKey[t]) return;

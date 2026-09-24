@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P4FP Presentation Briefing</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#124A31">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:title" content="P4FP presentation briefing (New Wave team)">
+<meta property="og:description" content="Internal team notes: the assignment in plain language, roles, and how the prototype answers SNV's scoring areas.">
+<meta property="og:image" content="https://snv-prototype.vercel.app/og-image.jpg">
+<meta name="description" content="Internal team briefing: the P4FP Uganda MEL assignment in plain language, the roles, and how the prototype answers each of SNV's scoring areas.">
+<style>
+  :root {
+    --bg:#F4F6F2; --card:#FFFFFF; --ink:#16211B; --ink2:#45524B; --muted:#6F7A74; --line:#E2E7E2;
+    --green:#1E6B47; --green-bg:#E7F1EB; --amber:#B86E00; --amber-bg:#FDF1DC; --red:#B4372F; --red-bg:#FBE9E7;
+    --blue:#2B6CB0; --violet:#7C4DDB; --orange:#D9651B;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:#121714; --card:#1B221E; --ink:#E7EDE9; --ink2:#C3CCC6; --muted:#8E9A93; --line:#2C3530;
+      --green:#6CC49A; --green-bg:#1D3027; --amber:#F0B45A; --amber-bg:#33291A; --red:#F08A80; --red-bg:#3A2220;
+      --blue:#7FB0EA; --violet:#B39AF0; --orange:#F0A06B;
+    }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:32px 16px 80px; }
+  header .tag { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.08em; color:var(--amber); text-transform:uppercase; }
+  h1 { font-size:32px; line-height:1.2; margin:6px 0 8px; }
+  h2 { font-size:22px; margin:44px 0 12px; padding-top:8px; border-top:1px solid var(--line); }
+  h3 { font-size:17px; margin:22px 0 6px; }
+  p { margin:8px 0; color:var(--ink2); }
+  a { color:var(--green); font-weight:600; }
+  .lead { font-size:18px; color:var(--ink2); }
+  nav.toc { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 4px; }
+  nav.toc a { font-size:13.5px; background:var(--card); border:1px solid var(--line); border-radius:999px; padding:4px 12px; text-decoration:none; color:var(--ink); font-weight:500; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 20px; margin:12px 0; }
+  .key { background:var(--green-bg); border-color:transparent; }
+  .warn { background:var(--amber-bg); border-color:transparent; }
+  .bad { background:var(--red-bg); border-color:transparent; }
+  .card p:first-child { margin-top:0; } .card p:last-child { margin-bottom:0; }
+  table { width:100%; border-collapse:collapse; font-size:14.5px; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:block; overflow-x:auto; }
+  th, td { text-align:left; vertical-align:top; padding:9px 12px; border-bottom:1px solid var(--line); }
+  th { font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); background:var(--bg); }
+  tr:last-child td { border-bottom:0; }
+  td b { color:var(--ink); }
+  dl { margin:0; }
+  dl div { display:grid; grid-template-columns:190px 1fr; gap:12px; padding:9px 0; border-bottom:1px solid var(--line); }
+  dl div:last-child { border-bottom:0; }
+  dt { font-weight:700; } dd { margin:0; color:var(--ink2); }
+  @media (max-width:640px) { dl div { grid-template-columns:1fr; gap:2px; } h1 { font-size:26px; } }
+  .flow { display:flex; flex-wrap:wrap; align-items:stretch; gap:8px; margin:14px 0; }
+  .flow .step { flex:1 1 150px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:14px; }
+  .flow .step b { display:block; font-size:14.5px; }
+  .flow .arrow { align-self:center; color:var(--muted); font-weight:700; }
+  .pill { display:inline-block; font-size:12px; font-weight:700; border-radius:999px; padding:1px 9px; }
+  .learn { background:#E3EDF8; color:#1F4F83; } .link { background:#EFE8FB; color:#5A34A8; } .leverage { background:#FBEADF; color:#9E4613; }
+  ol.script { padding-left:22px; } ol.script li { margin:8px 0; color:var(--ink2); } ol.script li b { color:var(--ink); }
+  .qa h3 { margin-top:18px; }
+  .qa p { margin-top:2px; }
+  footer { margin-top:48px; font-size:13px; color:var(--muted); }
+  @media print { nav.toc, .noprint { display:none; } body { background:#fff; } .card, table { break-inside:avoid; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <span class="tag">Internal · New Wave team only · do not share with SNV</span>
+  <h1>P4FP Uganda MEL Platform: presentation briefing</h1>
+  <p class="lead">Everything you need to understand the assignment, speak the client's language, and show how the prototype answers what SNV will score.</p>
+  <p>Prototype: <a href="prototype.html">open the clickable prototype</a> · the screen links below open straight on the right screen.</p>
+  <nav class="toc">
+    <a href="#short">30-second version</a><a href="#words">Words decoded</a><a href="#programme">The programme</a>
+    <a href="#buying">What SNV is buying</a><a href="#architecture">MEL architecture</a><a href="#flow">How data flows</a>
+    <a href="#roles">Roles</a><a href="#scoring">Scoring areas → screens</a><a href="#script">Walkthrough script</a>
+    <a href="#questions">Likely questions</a><a href="#watch">Watch-outs</a>
+  </nav>
+</header>
+
+<h2 id="short">1. The 30-second version</h2>
+<div class="card key">
+  <p><b>SNV</b> runs a programme called <b>Power for Food Partnership (P4FP)</b>, funded by the IKEA Foundation (2025–2029). In Uganda it helps farmers and small agribusinesses adopt <b>regenerative farming powered by renewable energy</b> (for example, solar irrigation and solar dryers), working through <b>8 partner organisations</b> in <b>15 districts</b>.</p>
+  <p>SNV needs a <b>MEL platform</b>: one system where partners report what they did and what changed, SNV checks and approves it, and approved results show on dashboards and maps and go to SNV's corporate system, <b>LogAlto</b>.</p>
+  <p>They want it <b>live in 12 weeks</b>, then maintained until <b>December 2029</b>. We are at the <b>presentation stage</b>: we passed technical evaluation and now have to convince them in person.</p>
+</div>
+
+<h2 id="words">2. The words they will use, decoded</h2>
+<div class="card">
+<dl>
+  <div><dt>MEL</dt><dd><b>Monitoring, Evaluation and Learning.</b> Monitoring = tracking what is happening (numbers, activities). Evaluation = judging whether it worked. Learning = using that evidence to adjust the programme. A "MEL platform" is the software that holds all of this.</dd></div>
+  <div><dt>MEL architecture</dt><dd>How their measurement system is <i>structured</i>: which indicators, which methods, who reports what, how it rolls up. Our job is to turn that structure into software (section 5).</dd></div>
+  <div><dt>Indicator</dt><dd>A number they track against a target, e.g. "farmers adopting RA-PURE practices: 18,420 of 45,000".</dd></div>
+  <div><dt>Output vs outcome</dt><dd><b>Output</b> = what the programme delivered (people trained, solar units installed). <b>Outcome</b> = a change in how someone behaves or decides because of it (a district starts budgeting for solar irrigation).</dd></div>
+  <div><dt>PHI</dt><dd>A programme headline indicator. The ToR names <b>PHI 8</b> = farmer and agribusiness adoption of RA-PURE, linked to System Signal SS5.</dd></div>
+  <div><dt>Outcome Harvesting</dt><dd>A method for capturing outcomes <i>after</i> they happen: "who changed what, when, where, why it matters, how we contributed", then checked against evidence. Partners "harvest" outcomes, SNV verifies them.</dd></div>
+  <div><dt>System Signals (SS1–SS8)</dt><dd>Eight signs that the whole food-and-energy <i>system</i> is changing, not just individual farmers. SNV scores each one <b>0–4</b> using a rubric and draws them on a <b>radar/spiderweb chart</b> to compare over time.</dd></div>
+  <div><dt>Rubric 0–4</dt><dd>A scoring guide. Ours: 0 no signal · 1 emerging · 2 developing · 3 established · 4 embedded. Each score needs a written justification and linked outcomes.</dd></div>
+  <div><dt>Sense Making / Pause &amp; Reflect</dt><dd>Periodic meetings where SNV and partners review the evidence together and agree the signal scores. The platform records those scores and notes.</dd></div>
+  <div><dt>LEARN · LINK · LEVERAGE</dt><dd>The three pathways. <span class="pill learn">LEARN</span> evidence and knowledge sharing · <span class="pill link">LINK</span> actors collaborating · <span class="pill leverage">LEVERAGE</span> policy, finance and investment. Every record is tagged with one.</dd></div>
+  <div><dt>RA · PURE · nexus</dt><dd><b>RA</b> = Regenerative Agriculture (healthy soils, mulching, composting). <b>PURE</b> = Productive Use of Renewable Energy (solar pumps, dryers, mills). <b>Nexus</b> = treating the two together.</dd></div>
+  <div><dt>GESI · disaggregation</dt><dd><b>GESI</b> = Gender Equality and Social Inclusion. <b>Disaggregation</b> = splitting a number by sex, age group, district or value chain (e.g. 54% of adopting farmers are women).</dd></div>
+  <div><dt>Value chain</dt><dd>A product and everything around it: coffee, dairy, horticulture, grains.</dd></div>
+  <div><dt>LogAlto</dt><dd>SNV's existing <b>corporate</b> M&amp;E software. Our platform <b>complements</b> it; it does not replace it. Approved figures flow to LogAlto (by API, or an Excel file if the API isn't available).</dd></div>
+  <div><dt>Sub-grant</dt><dd>Money SNV gives each partner in tranches. The ToR wants <i>high-level</i> financial milestone tracking (planned vs disbursed), not full accounting.</dd></div>
+  <div><dt>Approval-gated</dt><dd>Nothing counts in official dashboards, donor reports or LogAlto until SNV has approved it. This is the single most important rule in the system.</dd></div>
+</dl>
+</div>
+
+<h2 id="programme">3. The programme in facts</h2>
+<table>
+  <tr><th>What</th><th>Detail</th></tr>
+  <tr><td><b>Programme</b></td><td>Power for Food Partnership (P4FP), 2025–2029, Uganda, Kenya, Rwanda, Ethiopia; funded by the IKEA Foundation</td></tr>
+  <tr><td><b>Vision</b></td><td>Renewable-energy-driven, resilient food systems where people have equitable opportunities to thrive</td></tr>
+  <tr><td><b>8 partners</b></td><td>ACSA (sustainable agriculture advocacy) · PELUM Uganda (ecological land use) · NREP (renewable energy platform) · ACME (media) · CREEC (energy research) · NOGAMU (organic agriculture) · NARO (agricultural research) · USEA (solar industry association)</td></tr>
+  <tr><td><b>15 districts, 4 regions</b></td><td><b>Central:</b> Masaka, Mpigi, Mubende, Luwero, Nakasongola, Kayunga · <b>Western:</b> Mbarara, Kabarole, Isingiro, Kasese, Ntungamo · <b>Eastern:</b> Mbale, Iganga, Jinja · <b>Lango:</b> Lira</td></tr>
+  <tr><td><b>Who we report to</b></td><td>Systems Transformation / MEL Advisor (day to day); Programme Manager P4FP Uganda (final approval)</td></tr>
+</table>
+
+<h2 id="buying">4. What SNV is buying</h2>
+<table>
+  <tr><th>Phase</th><th>What must happen</th><th>Payment</th></tr>
+  <tr><td><b>Weeks 1–2</b> Inception</td><td>Requirements, data model, roles, wireframes, LogAlto approach → Inception Report</td><td>30%</td></tr>
+  <tr><td><b>Weeks 3–6</b> Design &amp; prototype</td><td>UI/UX mock-ups, user journeys, workflows, prototype reviewed with SNV and partners</td><td>30%</td></tr>
+  <tr><td><b>Weeks 7–10</b> Build</td><td>Modules, mobile/offline, GIS, LogAlto link, security, staging environment</td><td>—</td></tr>
+  <tr><td><b>Weeks 11–12</b> Test, train, go live</td><td>UAT, security and load tests, train all 8 partners, manuals, handover. <b>Must be in active use by week 12.</b></td><td>40%</td></tr>
+  <tr><td><b>Week 13 → Dec 2029</b> Support</td><td>Fixes, security updates, user support, quarterly review reports. Paid quarterly <i>only</i> against support logs.</td><td>Quarterly</td></tr>
+</table>
+<div class="card warn"><p><b>Why this matters for tomorrow:</b> the mockups you are showing are exactly the kind of thing due in weeks 3–6. Showing them now proves we understand the job before we're paid for it.</p></div>
+
+<h2 id="architecture">5. "P4FP Uganda MEL architecture": what they mean</h2>
+<p>It's the structure of how they measure change. It has five parts, and each one has a home in our platform:</p>
+<table>
+  <tr><th>Part of their MEL architecture</th><th>In plain words</th><th>Where it lives in the prototype</th></tr>
+  <tr><td><b>Output indicators</b> (incl. PHI 8)</td><td>Numbers against targets, split by sex/age/district</td><td><a href="prototype.html#w03">03 Indicator detail</a> · <a href="prototype.html#w02">02 Overview</a></td></tr>
+  <tr><td><b>Outcome Harvesting</b></td><td>Stories of real change, backed by evidence</td><td><a href="prototype.html#w06">06 Outcome board</a> · <a href="prototype.html#w07">07 Outcome review</a> · <a href="prototype.html#m09">M9 phone form</a></td></tr>
+  <tr><td><b>System Signals SS1–SS8</b> + rubric</td><td>Is the whole system shifting? Scored 0–4</td><td><a href="prototype.html#w08">08 System Signals</a> (radar over time)</td></tr>
+  <tr><td><b>LEARN / LINK / LEVERAGE</b></td><td>Every record tagged by pathway</td><td>Filters and tags on every screen; chart on <a href="prototype.html#w02">02</a></td></tr>
+  <tr><td><b>Partner reporting + geography</b></td><td>8 partners report quarterly; results mapped to 15 districts</td><td><a href="prototype.html#w04">04 Compliance</a> · <a href="prototype.html#w11">11 Report form</a> · <a href="prototype.html#w09">09 GIS</a></td></tr>
+</table>
+<div class="card key"><p><b>One sentence to use:</b> "We don't treat this as a generic forms system. Your MEL framework (indicators, Outcome Harvesting, the eight System Signals and the three pathways) is the blueprint, and each part has its own screen and its own rules."</p></div>
+
+<h2 id="flow">6. How data moves through the system</h2>
+<div class="flow">
+  <div class="step"><b>1 · Field</b>Field user registers farmers, takes GPS photos, drafts outcomes: offline on the Android app</div>
+  <div class="arrow">→</div>
+  <div class="step"><b>2 · Partner</b>Partner MEL Focal Person checks, compiles the quarterly report, submits to SNV</div>
+  <div class="arrow">→</div>
+  <div class="step"><b>3 · SNV review</b>SNV MEL Reviewer approves, returns for revision, or rejects. System checks run automatically</div>
+  <div class="arrow">→</div>
+  <div class="step"><b>4 · Official use</b>Only approved data reaches dashboards, maps, donor reports, LogAlto and the public website</div>
+</div>
+<p>Everything along the way is recorded in the <a href="prototype.html#w17">audit trail</a>: who changed what, when, and what the value was before.</p>
+
+<h2 id="roles">7. Roles: ToR vs our proposal vs the mockups</h2>
+<table>
+  <tr><th>ToR says (minimum)</th><th>Proposal &amp; boss's deck</th><th>Mockups</th><th>Person shown</th><th>What they do</th></tr>
+  <tr><td>Super Administrator</td><td>Super Admin</td><td>Super Admin</td><td>(none named)</td><td>Manages users, permissions, settings</td></tr>
+  <tr><td><i>(review sits with Super Admin / "SNV MEL Administrator")</i></td><td>SNV MEL reviewer / approver</td><td>SNV MEL Reviewer</td><td>Grace Akello, SNV</td><td>Reviews, approves or returns partner data; scores System Signals</td></tr>
+  <tr><td>Partner MEL Focal Person</td><td>Partner MEL Focal</td><td>Partner MEL Focal Person</td><td>Brian Tumusiime, NREP</td><td>Enters and submits own partner's reports; sees own data only</td></tr>
+  <tr><td>Partner Field / Data Entry User</td><td>Field user</td><td>Partner Field User</td><td>Sarah Nakato, NOGAMU</td><td>Collects data in the field on the phone app; cannot submit to SNV</td></tr>
+  <tr><td>Read-Only User</td><td>Read-only stakeholder</td><td>Read-only</td><td>Regional MEL viewer</td><td>Views approved data (e.g. SNV regional/global teams)</td></tr>
+</table>
+<div class="card warn"><p><b>If asked "where does SNV MEL Reviewer come from?"</b> "The ToR lists the minimum roles. We split SNV's work into two: the Super Admin manages the system, the MEL Reviewer approves data. The person approving data shouldn't need to manage user accounts. It's all configurable at inception."</p>
+<p><b>Job title ≠ system role.</b> Grace's job at SNV might be "MEL Advisor"; in the system she acts as <i>SNV MEL Reviewer</i>.</p></div>
+
+<h2 id="scoring">8. SNV's five scoring areas → what to show and say</h2>
+
+<h3>1 · Clarity &amp; understanding of the assignment: rationale, objectives, MEL architecture</h3>
+<p><b>What they're checking:</b> do we understand <i>why</i> this platform is needed and <i>what</i> it must do, in their own terms?</p>
+<p><b>Rationale (why):</b> past energy and agriculture projects were fragmented. P4FP's systems-change MEL (outcomes, signals, pathways) can't live in spreadsheets or in LogAlto alone. They need one layer where partners report and SNV reviews.<br>
+<b>Objectives (what):</b> a live, secure platform in 12 weeks covering indicators, partner reporting, Outcome Harvesting, signal scoring, evidence, dashboards, GIS and LogAlto, then support to 2029.<br>
+<b>Architecture:</b> section 5 above.</p>
+<p><b>Show:</b> <a href="prototype.html#w00">00 Landing page</a> (their programme in one view) → <a href="prototype.html#w02">02 Overview</a> (every part of the MEL architecture on one dashboard).</p>
+
+<h3>2 · Technical approach &amp; live walkthrough</h3>
+<table>
+  <tr><th>They listed</th><th>Show</th><th>Point to make</th></tr>
+  <tr><td>System architecture</td><td><a href="prototype.html#w13">13 LogAlto &amp; exports</a> (flow diagram at top)</td><td>Partners → SNV review → platform → LogAlto; modular and API-ready</td></tr>
+  <tr><td>Demo / mockups</td><td>The whole prototype (section 9)</td><td>Illustrative, validated with SNV and partners in weeks 3–6</td></tr>
+  <tr><td>Integrations / API</td><td><a href="prototype.html#w13">13</a></td><td>API if LogAlto allows, Excel import pack as fallback; conflicts flagged, not overwritten</td></tr>
+  <tr><td>Security</td><td><a href="prototype.html#w01">01</a> → <a href="prototype.html#w01b">01b</a>, <a href="prototype.html#w17">17 Audit trail</a></td><td>Two-step login, encryption, tamper-evident audit log</td></tr>
+  <tr><td>GIS</td><td><a href="prototype.html#w09">09 GIS &amp; maps</a></td><td>15 real districts, partner areas, adoption hotspots, GPS points; admins can add districts</td></tr>
+  <tr><td>Dashboards &amp; visualisation</td><td><a href="prototype.html#w02">02</a>, <a href="prototype.html#w08">08 radar</a></td><td>Approved data only; programme view and partner view</td></tr>
+  <tr><td>Backups</td><td><a href="prototype.html#w13">13</a> (Daily backups card)</td><td>Daily, encrypted, downloadable by SNV, restore tested</td></tr>
+  <tr><td>Mobile &amp; field use</td><td><a href="prototype.html#m01">M1–M13</a></td><td>Android app (Flutter): offline, GPS, photos, sync with conflict handling</td></tr>
+  <tr><td>User roles &amp; access</td><td><a href="prototype.html#w14">14 Users &amp; roles</a>; switch to <a href="prototype.html#w10">10 NREP view</a></td><td>Permissions = what you can do; scope = whose data you see</td></tr>
+  <tr><td>Maintenance &amp; support</td><td>Boss's slide 11</td><td>Severity levels, response times, quarterly review reports</td></tr>
+</table>
+
+<h3>3 · Firm experience (evidence)</h3>
+<p><b>Say:</b> the closest match is the <b>Ministry of Public Service SDS tool</b>: the same pattern (standards → scoring → review → dashboards → map) across local governments. Plus MoWE water &amp; sanitation M&amp;E, and Palladium/UCIF (a donor-programme portal). <b>Have <a href="https://sdsbeta.nwtdemos.com" target="_blank" rel="noopener">sdsbeta.nwtdemos.com</a> open in a tab.</b> A live system beats slides.</p>
+
+<h3>4 · Workplan &amp; risk mitigation</h3>
+<p>Boss's slides 10–11. Key lines: design and build overlap (coding starts week 3); only "Must-Have" modules are promised for week 12; LogAlto has an Excel fallback, so week 12 doesn't depend on an API we don't control.</p>
+
+<h3>5 · Budget alignment</h3>
+<p>Boss's slide 12. Every cost line should trace back to a module or requirement. <b>This slide currently has no figures</b> (see watch-outs).</p>
+
+<h2 id="script">9. Walkthrough script (about 8 minutes)</h2>
+<ol class="script">
+  <li><a href="prototype.html#w00"><b>00 Landing page</b></a>: "The public face: approved, non-sensitive results only. This also meets the ToR's P4FP website requirement."</li>
+  <li><a href="prototype.html#w01"><b>01 Sign in</b></a> → <a href="prototype.html#w01b"><b>01b Two-step code</b></a>: "Secure login for SNV and partners."</li>
+  <li><a href="prototype.html#w02"><b>02 Overview</b></a>: "SNV's management view. Indicators against targets, the eight signals, reach map, partner compliance. Note the 'approved data only' badge."</li>
+  <li><a href="prototype.html#w04"><b>04 Partner reporting</b></a> → click the NREP row → <a href="prototype.html#w05"><b>05 Review</b></a>: "The system checks data before SNV sees it: out-of-range values, duplicates, missing evidence. SNV approves or returns it. Every version is kept."</li>
+  <li><a href="prototype.html#w06"><b>06 Outcome board</b></a> → click the highlighted card → <a href="prototype.html#w07"><b>07</b></a>: "Outcome Harvesting: the statement, the evidence, and SNV mapping it to signals and a pathway."</li>
+  <li><a href="prototype.html#w08"><b>08 System Signals</b></a>: "Sense Making: score 0–4, justify it, link outcomes, compare over time on the radar."</li>
+  <li><a href="prototype.html#w09"><b>09 GIS</b></a>: "Where partners work, where adoption concentrates, where the gaps are."</li>
+  <li>Click Grace's name (bottom left) → <a href="prototype.html#w10"><b>10 NREP portal</b></a>: "The partner sees only their own data: due report, returned item, workplan, sub-grant."</li>
+  <li>Bottom bar → <b>Android app</b>: <a href="prototype.html#m01">splash</a> → sign in → <a href="prototype.html#m06">home (offline)</a> → <a href="prototype.html#m07">farmer record with GPS + duplicate check</a> → <a href="prototype.html#m10">sync</a>.</li>
+  <li><a href="prototype.html#w17"><b>17 Audit trail</b></a>: "Every change: who, when, before and after. Nobody can edit it."</li>
+</ol>
+
+<h2 id="questions">10. Likely questions and short answers</h2>
+<div class="qa">
+  <h3>"What if LogAlto's API isn't available?"</h3>
+  <p>We agree the mechanism at inception. There's always an Excel import/export fallback, so week 12 doesn't depend on it.</p>
+  <h3>"How does it work with no internet in the field?"</h3>
+  <p>The Android app saves everything on the phone, including GPS and photos, and syncs when connected. Conflicts, such as the same farmer entered twice, are flagged for a person to resolve.</p>
+  <h3>"How do you stop double-counting farmers across partners?"</h3>
+  <p>Duplicate detection on phone number, name and village, across all partners, before submission (see <a href="prototype.html#w11">11</a>).</p>
+  <h3>"Can partners see each other's data?"</h3>
+  <p>No. Scope limits each partner to their own data unless SNV grants shared access. Sub-grant finance is restricted further.</p>
+  <h3>"Who owns the data and the code?"</h3>
+  <p>SNV owns all data, code and documentation. Source code sits in a repository SNV can access. Exports are available at any time as CSV, Excel or PDF.</p>
+  <h3>"Is this system already built?"</h3>
+  <p>No. These are illustrative prototype screens with sample data, to show the workflow. The final design is validated with SNV and partners in weeks 3–6.</p>
+  <h3>"Why Flutter?"</h3>
+  <p>One codebase gives a real Android app with offline storage, GPS and camera, and it can extend to iPhone later without rebuilding. Nothing is locked in: open source, and SNV gets the code.</p>
+  <h3>"What are SS1–SS8 in your mockup?"</h3>
+  <p>The names on screen are placeholders. We'll load SNV's actual signal definitions and rubric at inception. SS5 = adoption (PHI 8) is from the ToR.</p>
+</div>
+
+<h2 id="watch">11. Watch-outs before tomorrow</h2>
+<div class="card bad">
+  <p><b>1 · Budget slide has no numbers.</b> The ToR wants amounts in UGX with EUR equivalent: the 12-week total, the maximum per quarter for support, and hosting/recurring costs.</p>
+  <p><b>2 · PWA vs Flutter.</b> Deck slides 5, 8, 10, 12 and the proposal say PWA; slides 10 and 12 list a native app as an <i>optional extra</i>. If Flutter is core, update those slides and the budget.</p>
+  <p><b>3 · Names and years.</b> MEL analyst spelled Apanjo / Apajo / "Joseph Apajo" in different places; Eisah shows 16+ vs 18+ years. Pick one version.</p>
+  <p><b>4 · Draft notes in the submitted proposal</b> (e.g. "Confirm live demo access… before submission" for PPDA). Be ready if asked about the PPDA reference.</p>
+</div>
+<div class="card warn">
+  <p><b>5 · Say "illustrative" once</b> when you open the prototype: all names, figures and outcomes are sample data.</p>
+  <p><b>6 · Before presenting:</b> open the prototype while online and wait for "✓ Offline-ready" in the bottom bar. Present in Chrome, full screen (F).</p>
+  <p><b>7 · Don't share this page's link with SNV.</b> It's an internal briefing. The prototype link is fine to share.</p>
+</div>
+
+<footer>Prepared for the New Wave Technologies presentation team · sources: SNV ToR, NWT technical proposal, NWT presentation deck v1, SNV invitation message.</footer>
+</div>
+</body>
+</html>

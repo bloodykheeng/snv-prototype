@@ -1,6 +1,21 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>P4FP MEL Prototype</title>
+<meta name="description" content="Clickable prototype of the P4FP Uganda MEL platform by New Wave Technologies: web dashboards, partner portal, Outcome Harvesting, System Signals, GIS and the Android field app.">
+<meta name="theme-color" content="#124A31">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="New Wave Technologies">
+<meta property="og:title" content="P4FP Uganda MEL Platform: clickable prototype">
+<meta property="og:description" content="Dashboards, partner reporting, Outcome Harvesting, System Signals, GIS and the offline Android field app. Illustrative data.">
+<meta property="og:url" content="https://snv-prototype.vercel.app/prototype.html">
+<meta property="og:image" content="https://snv-prototype.vercel.app/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://snv-prototype.vercel.app/og-image.jpg">
 <style>
   :root { --bg:#161B18; --bar:#232A26; --ink:#E9EEEA; --muted:#9AA69F; --accent:#F0A12B; }
   html, body { margin:0; height:100%; background:var(--bg); color:var(--ink); font:14px "Segoe UI", system-ui, sans-serif; overflow:hidden; }
@@ -25,16 +40,27 @@
   #bar > * { white-space:nowrap; flex-shrink:0; }
   #bar .hint { overflow:hidden; text-overflow:ellipsis; flex-shrink:1; min-width:0; }
   @media (max-width:1500px) { #bar .hint { display:none; } }
+  /* phones */
+  #rotate { position:absolute; left:50%; bottom:52px; transform:translateX(-50%); background:#2E3732; color:var(--ink); font-size:12.5px; padding:6px 12px; border-radius:999px; display:none; white-space:nowrap; }
+  body.small.portrait.webscreen #rotate { display:block; }
+  @media (max-width:760px) {
+    #bar { gap:6px; padding:0 8px; }
+    #bar .pill, #bar #ready, #bar .sp, #bar .long { display:none; }
+    #bar select { flex:1 1 auto; min-width:0; max-width:none; }
+    #bar button { padding:0 9px; }
+    #frame.mobile { border:0; border-radius:0; box-shadow:none; }
+  }
   #bar .hint { color:var(--muted); font-size:12.5px; }
   #bar .pill { color:#161B18; background:var(--accent); border-radius:10px; padding:1px 8px; font-weight:600; font-size:12px; }
 </style></head><body>
 <div id="stage"><div id="frame"><img id="img" alt=""><div id="msg">This screen could not load. Check the internet connection, then press → or pick it again.</div></div></div>
+<div id="rotate">Turn your phone sideways for the web screens</div>
 <div id="bar">
   <button id="prev" title="Previous (←)">&#8592;</button>
   <select id="pick"></select>
   <button id="next" title="Next (→)">&#8594;</button>
-  <button id="web">Web</button><button id="mob">Android app (Flutter)</button>
-  <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6; Full screen</button>
+  <button id="web">Web</button><button id="mob">Android<span class="long"> app (Flutter)</span></button>
+  <button id="fs" title="Full screen (F) · Esc to exit">&#x26F6;<span class="long"> Full screen</span></button>
   <span id="ready"></span><span class="sp"></span>
   <span class="hint">← → keys · H hotspots · F full screen · Esc exit</span>
   <span class="pill">Illustrative data</span>
@@ -58,8 +84,12 @@ SCREENS.forEach(s => { const o = document.createElement('option'); o.value = s.k
 function fit() {
   if (!cur) return;
   const s = byKey[cur], st = document.getElementById('stage');
-  const pad = s.mobile ? 60 : 16, bw = s.mobile ? 20 : 0;
-  const k = Math.min((st.clientWidth - pad) / s.w, (st.clientHeight - pad) / s.h, s.mobile ? 1.1 : 1);
+  const small = innerWidth <= 760;
+  document.body.classList.toggle('small', small);
+  document.body.classList.toggle('portrait', innerHeight > innerWidth);
+  document.body.classList.toggle('webscreen', !s.mobile);
+  const pad = small ? 0 : (s.mobile ? 60 : 16), bw = (s.mobile && !small) ? 20 : 0;
+  const k = Math.min((st.clientWidth - pad) / s.w, (st.clientHeight - pad) / s.h, small ? 3 : (s.mobile ? 1.1 : 1));
   frame.style.width = (s.w * k + bw) + 'px'; frame.style.height = (s.h * k + bw) + 'px';
 }
 function go(key, push = true) {
@@ -110,5 +140,5 @@ document.addEventListener('fullscreenchange', () => {
 addEventListener('mousemove', e => document.body.classList.toggle('peek', e.clientY > innerHeight - 70));
 addEventListener('keydown', e => { if (e.key.toLowerCase() === 'f' && e.target.tagName !== 'SELECT') toggleFs(); });
 addEventListener('resize', fit);
-go(location.hash.slice(1) || 'w00', false);
+go(location.hash.slice(1) || (innerWidth <= 760 ? 'm01' : 'w00'), false);
 </script></body></html>

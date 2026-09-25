@@ -2,12 +2,14 @@
 from __future__ import annotations
 
 import json
+import os
 import math
 import random
 
 from kit import (AMBER, CARD, FAINT, GREEN, INK, INK2, LINE, LINE2, MUTED, REGION, SIGNALS, SVG, shade, tint, tw)
 
-BOUNDARIES = "D:/coding/new wave/mops sds/sds new/sds-mops-workspace/sdstool-nextjs/public/boundaries/districts.geojson"
+# Uganda district boundaries (UBOS, 137 districts), copied from the SDS tool so the repo builds on its own.
+BOUNDARIES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "districts.geojson")
 
 P4FP_DISTRICTS = {
     "Masaka": "Central", "Mpigi": "Central", "Mubende": "Central", "Luwero": "Central",
